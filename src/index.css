@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+/* ─── DESIGN TOKENS ─────────────────────────── */
+:root {
+  /* Brand blues */
+  --blue:          #1A56DB;
+  --blue-dark:     #1043B0;
+  --blue-light:    #4B8EF5;
+  --blue-mid:      #2563EB;
+  /* Brand orange */
+  --orange:        #F97316;
+  --orange-dark:   #EA580C;
+  --orange-light:  #FB923C;
+  /* Dark backgrounds (hero/footer) */
+  --navy:          #080D1A;
+  --navy-mid:      #0F1629;
+  --navy-card:     #172040;
+  /* Light backgrounds */
+  --white:         #FFFFFF;
+  --off-white:     #F0F4FF;
+  --light-card:    #FFFFFF;
+  --light-border:  rgba(0,0,0,0.09);
+  --light-grey:    #6B7280;
+  /* Text */
+  --grey:          #8B96B0;
+  --grey-light:    #B8C4D8;
+  --text-dark:     #0D1526;
+  --text-mid:      #374151;
+  /* Borders & glass */
+  --border:        rgba(255,255,255,0.09);
+  --glass-bg:      rgba(255,255,255,0.05);
+  --shadow-glow:   0 0 80px rgba(26,86,219,0.3);
+  --shadow-card:   0 4px 24px rgba(0,0,0,0.07);
+  --radius-card:   20px;
+  --radius-btn:    999px;
+  --transition:    0.3s cubic-bezier(0.4,0,0.2,1);
+
+  /* Legacy aliases so existing code still works */
+  --purple:        var(--blue);
+  --purple-dark:   var(--blue-dark);
+  --purple-light:  var(--blue-light);
+}
+
+/* ─── RESET ─────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 16px; }
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--navy);
+  color: var(--white);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+img { max-width: 100%; display: block; }
+a  { text-decoration: none; color: inherit; }
+ul { list-style: none; }
+button { border: none; cursor: pointer; font-family: inherit; }
+
+/* ─── SCROLLBAR ──────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--navy); }
+::-webkit-scrollbar-thumb { background: var(--blue); border-radius: 3px; }
+
+/* ─── LAYOUT HELPERS ─────────────────────────── */
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.section {
+  padding: 100px 0;
+}
+/* White section — matches MyMint content panes */
+.section--white {
+  background: #FFFFFF;
+  color: var(--text-dark);
+}
+.section--light {
+  background: var(--off-white);
+  color: var(--text-dark);
+}
+.section--navy {
+  background: var(--navy-mid);
+}
+
+/* Text colour overrides for light sections */
+.section--white .body-lg,
+.section--white .body-md,
+.section--light .body-lg,
+.section--light .body-md  { color: var(--text-mid); }
+.section--white .label,
+.section--light .label    { color: var(--purple); }
+.section--white .headline-lg,
+.section--white .headline-md,
+.section--white .headline-xl,
+.section--light .headline-lg,
+.section--light .headline-md,
+.section--light .headline-xl { color: var(--text-dark); }
+
+/* ─── TYPOGRAPHY ─────────────────────────────── */
+.label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--purple-light);
+}
+.headline-xl {
+  font-size: clamp(2.8rem, 6vw, 5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+.headline-lg {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+.headline-md {
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  font-weight: 700;
+  line-height: 1.3;
+}
+.body-lg  { font-size: 1.125rem; color: var(--grey-light); line-height: 1.7; }
+.body-md  { font-size: 1rem;     color: var(--grey-light); line-height: 1.7; }
+
+/* ─── BUTTONS ────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 24px;
+  border-radius: var(--radius-btn);
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: var(--transition);
+  white-space: nowrap;
+  cursor: pointer;
+}
+.btn-icon {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px;
+  transition: var(--transition);
+}
+.btn--primary {
+  background: var(--white);
+  color: var(--text-dark);
+}
+.btn--primary .btn-icon { background: var(--purple); color: #fff; }
+.btn--primary:hover { background: var(--off-white); transform: translateY(-2px); }
+.btn--primary:hover .btn-icon { background: var(--purple-dark); }
+
+.btn--purple {
+  background: var(--blue);
+  color: var(--white);
+}
+.btn--purple .btn-icon { background: rgba(255,255,255,0.2); color: #fff; }
+.btn--purple:hover { background: var(--blue-dark); transform: translateY(-2px); }
+
+.btn--blue {
+  background: var(--blue);
+  color: var(--white);
+}
+.btn--blue .btn-icon { background: rgba(255,255,255,0.2); color: #fff; }
+.btn--blue:hover { background: var(--blue-dark); transform: translateY(-2px); }
+
+.btn--orange {
+  background: var(--orange);
+  color: var(--white);
+}
+.btn--orange .btn-icon { background: rgba(255,255,255,0.2); color: #fff; }
+.btn--orange:hover { background: var(--orange-dark); transform: translateY(-2px); }
+
+.btn--outline {
+  background: transparent;
+  color: var(--white);
+  border: 1.5px solid rgba(255,255,255,0.3);
+}
+.btn--outline:hover { border-color: var(--white); background: rgba(255,255,255,0.05); }
+
+/* Dark outline for white/light sections */
+.btn--outline-dark {
+  background: transparent;
+  color: var(--text-dark);
+  border: 1.5px solid rgba(0,0,0,0.2);
+}
+.btn--outline-dark:hover { border-color: var(--purple); color: var(--purple); background: rgba(91,54,212,0.05); }
+
+/* ─── CARDS ──────────────────────────────────── */
+.card {
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  transition: var(--transition);
+}
+.card--glass {
+  background: var(--glass-bg);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(12px);
+  padding: 32px;
+}
+.card--glass:hover {
+  border-color: rgba(91,54,212,0.4);
+  box-shadow: 0 8px 40px rgba(91,54,212,0.15);
+  transform: translateY(-4px);
+}
+.card--purple {
+  background: var(--purple-dark);
+  padding: 32px;
+}
+.card--dark {
+  background: var(--navy-card);
+  border: 1px solid var(--border);
+  padding: 32px;
+}
+.card--dark:hover {
+  border-color: rgba(91,54,212,0.3);
+  transform: translateY(-4px);
+}
+/* White card for light sections — MyMint style */
+.card--white {
+  background: #FFFFFF;
+  border: 1px solid var(--light-border);
+  box-shadow: var(--shadow-card);
+  padding: 32px;
+  color: var(--text-dark);
+}
+.card--white:hover {
+  box-shadow: 0 12px 40px rgba(91,54,212,0.12);
+  border-color: rgba(91,54,212,0.25);
+  transform: translateY(-4px);
+}
+.card--white .body-md,
+.card--white .body-lg { color: var(--text-mid); }
+.card--white .headline-md { color: var(--text-dark); }
+
+/* ─── GRID ───────────────────────────────────── */
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+
+@media (max-width: 1024px) {
+  .grid-3 { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 640px) {
+  .grid-3, .grid-2 { grid-template-columns: 1fr; }
+  .section { padding: 60px 0; }
+}
+
+/* ─── DIVIDER ────────────────────────────────── */
+.divider {
+  height: 1px;
+  background: var(--border);
+  margin: 0;
+}
+
+/* ─── PAGE TRANSITION ────────────────────────── */
+.page-enter {
+  animation: pageIn 0.4s ease forwards;
+}
+@keyframes pageIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ─── GLOW BLOB (background decoration) ─────── */
+.glow-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  pointer-events: none;
+  z-index: 0;
+}
+.glow-blob--purple {
+  background: rgba(91,54,212,0.35);
+  width: 600px; height: 600px;
+}
+.glow-blob--blue {
+  background: rgba(30,80,180,0.2);
+  width: 500px; height: 500px;
+}

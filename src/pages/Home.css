@@ -1,0 +1,281 @@
+/* Hero */
+.home { overflow-x: hidden; }
+
+.home__hero {
+  padding-top: 0;
+  height: 100vh;
+  min-height: 640px;
+}
+.home__hero .carousel {
+  height: 100%;
+  border-radius: 0;
+}
+.home__hero .carousel__track { height: 100%; }
+
+.hero-slide {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.hero-slide--1 {
+  background-image: url('/images/hero1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.hero-slide--2 {
+  background-image: url('/images/hero2.jpg');
+  background-size: cover;
+  background-position: center top;
+}
+.hero-slide--3 {
+  background-image: url('/images/hero3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+/* dark gradient overlay on every slide so text is readable */
+.hero-slide__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    rgba(8,13,26,0.82) 0%,
+    rgba(8,13,26,0.55) 55%,
+    rgba(8,13,26,0.25) 100%
+  );
+  z-index: 0;
+}
+
+.hero-slide__inner {
+  position: relative;
+  z-index: 1;
+  padding-top: 80px;
+}
+
+/* Override label color for hero (always white on photo bg) */
+.hero-label {
+  color: var(--orange) !important;
+  letter-spacing: 0.2em;
+}
+
+.hero-slide__heading {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  max-width: 760px;
+}
+.hero-slide__accent { color: var(--purple-light); }
+.hero-slide__sub { max-width: 520px; margin-bottom: 40px; }
+.hero-slide__ctas { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 48px; }
+
+.hero-slide__users {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 0.9rem;
+  color: var(--grey-light);
+}
+.hero-avatars {
+  display: flex;
+}
+.avatar {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  border: 2px solid #0B0E1A;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700; font-size: 0.8rem;
+  margin-left: -8px;
+}
+.avatar:first-child { margin-left: 0; }
+
+/* Stats — white band like MyMint */
+.home__stats {
+  background: #FFFFFF;
+  border-top: 1px solid rgba(0,0,0,0.07);
+  border-bottom: 1px solid rgba(0,0,0,0.07);
+  padding: 40px 0;
+}
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+}
+.stat-item {
+  text-align: center;
+  padding: 20px;
+  border-right: 1px solid rgba(0,0,0,0.07);
+  opacity: 0; transform: translateY(20px);
+  transition: all 0.5s ease;
+}
+.stat-item:last-child { border-right: none; }
+.stat-item.visible { opacity: 1; transform: translateY(0); }
+.stat-value {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--purple);
+  line-height: 1;
+  margin-bottom: 8px;
+}
+.stat-label {
+  font-size: 0.85rem;
+  color: var(--text-mid);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* About */
+.home__about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+.home__about-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* About cards */
+.card--blue {
+  background: var(--blue);
+  padding: 32px;
+  border-radius: var(--radius-card);
+  color: #fff;
+}
+.card--orange {
+  background: var(--orange);
+  padding: 32px;
+  border-radius: var(--radius-card);
+  color: #fff;
+}
+
+/* Fade-up animation */
+.fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Section header (centered) */
+.section-header { text-align: center; }
+
+/* Services icon (dark bg) */
+.service-icon {
+  font-size: 2.2rem;
+  width: 56px; height: 56px;
+  border-radius: 16px;
+  background: rgba(91,54,212,0.15);
+  display: flex; align-items: center; justify-content: center;
+}
+/* Services icon (light bg) — MyMint style */
+.service-icon-light {
+  font-size: 2.2rem;
+  width: 56px; height: 56px;
+  border-radius: 16px;
+  background: rgba(91,54,212,0.08);
+  display: flex; align-items: center; justify-content: center;
+}
+
+/* Partners marquee — dark (legacy) */
+.partners-marquee {
+  overflow: hidden;
+  margin-top: 48px;
+  padding: 20px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.partners-track {
+  display: flex;
+  gap: 16px;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+.partners-track:hover { animation-play-state: paused; }
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.partner-chip {
+  background: var(--navy-card);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 10px 24px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--grey-light);
+  white-space: nowrap;
+  transition: var(--transition);
+}
+.partner-chip:hover {
+  border-color: var(--purple);
+  color: var(--white);
+  background: rgba(91,54,212,0.1);
+}
+
+/* Partners marquee — LIGHT / MyMint style with brand icons */
+.partners-marquee-light {
+  overflow: hidden;
+  margin-top: 56px;
+  padding: 24px 0;
+  border-top: 1px solid rgba(0,0,0,0.07);
+  border-bottom: 1px solid rgba(0,0,0,0.07);
+}
+.partners-track-light {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: max-content;
+  animation: marquee 35s linear infinite;
+}
+.partners-track-light:hover { animation-play-state: paused; }
+
+/* Partner brand logo cards (marquee) */
+.partner-logo-card {
+  background: #FFFFFF;
+  border: 1.5px solid rgba(0,0,0,0.09);
+  border-radius: 14px;
+  padding: 12px 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 130px;
+  height: 68px;
+  flex-shrink: 0;
+  transition: all 0.25s ease;
+}
+.partner-logo-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(26,86,219,0.12);
+  border-color: rgba(26,86,219,0.25);
+}
+
+/* CTA Banner */
+.home__cta-banner {
+  position: relative;
+  overflow: hidden;
+  background: var(--navy-mid);
+  padding: 120px 0;
+  text-align: center;
+  border-top: 1px solid var(--border);
+}
+
+/* Orange glow blob */
+.glow-blob--blue   { background: rgba(26,86,219,0.3);   width:600px;height:600px; }
+.glow-blob--orange { background: rgba(249,115,22,0.18); width:500px;height:500px; }
+
+@media (max-width: 900px) {
+  .home__about { grid-template-columns: 1fr; gap: 40px; }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .stat-item:nth-child(2) { border-right: none; }
+}
+@media (max-width: 640px) {
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .home__hero { min-height: 100svh; }
+}
