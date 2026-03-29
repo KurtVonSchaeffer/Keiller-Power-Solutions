@@ -125,12 +125,8 @@ const logos = {
     </svg>
   ),
 
-  GHTL: ({ w = 100, h = 55 }) => (
-    <svg viewBox="0 0 100 55" width={w} height={h} xmlns="http://www.w3.org/2000/svg">
-      <rect x="0" y="6" width="95" height="42" rx="4" fill="#0B3F8A"/>
-      <text x="47" y="33" textAnchor="middle" fontFamily="Arial Black, sans-serif"
-        fontSize="22" fontWeight="900" fill="#fff" letterSpacing="3">GHTL</text>
-    </svg>
+  GHTL: ({ w = 110 }) => (
+    <img src="/images/partners/ghtl.png" alt="GHTL" width={w} style={{ objectFit: 'contain', maxHeight: '55px' }} />
   ),
 
   HUAWEI: ({ w = 130, h = 60 }) => (
@@ -142,29 +138,12 @@ const logos = {
     </svg>
   ),
 
-  SigenEnergy: ({ w = 140, h = 55 }) => (
-    <svg viewBox="0 0 170 55" width={w} height={h} xmlns="http://www.w3.org/2000/svg">
-      {/* S mark */}
-      <rect x="0" y="8" width="30" height="16" rx="8" fill="#CC1B1B"/>
-      <rect x="0" y="28" width="30" height="16" rx="8" fill="#CC1B1B"/>
-      <rect x="0" y="18" width="15" height="12" fill="#CC1B1B"/>
-      <rect x="15" y="18" width="15" height="12" fill="#fff"/>
-      <text x="40" y="28" fontFamily="Arial Black, sans-serif" fontSize="16" fontWeight="900"
-        fill="#CC1B1B" letterSpacing="0.5">SIGEN</text>
-      <text x="40" y="44" fontFamily="Arial, sans-serif" fontSize="14" fontWeight="700"
-        fill="#333" letterSpacing="0.5">ENERGY</text>
-    </svg>
+  SigenEnergy: ({ w = 140 }) => (
+    <img src="/images/partners/sigenergy.png" alt="SigenEnergy" width={w} style={{ objectFit: 'contain', maxHeight: '55px' }} />
   ),
 
-  Deye: ({ w = 120, h = 50 }) => (
-    <svg viewBox="0 0 130 50" width={w} height={h} xmlns="http://www.w3.org/2000/svg">
-      {/* "i" in blue circle */}
-      <circle cx="14" cy="25" r="12" fill="#1A56DB"/>
-      <text x="14" y="30" textAnchor="middle" fontFamily="Georgia, serif" fontSize="16"
-        fontStyle="italic" fontWeight="400" fill="#fff">i</text>
-      <text x="34" y="36" fontFamily="Arial Black, sans-serif" fontSize="26" fontWeight="900"
-        fill="#CC0000">Deye</text>
-    </svg>
+  Deye: ({ w = 120 }) => (
+    <img src="/images/partners/deye-1.png" alt="Deye" width={w} style={{ objectFit: 'contain', maxHeight: '50px' }} />
   ),
 };
 

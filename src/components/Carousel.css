@@ -111,3 +111,9 @@
   from { width: 0%; }
   to   { width: 100%; }
 }
+
+@media (max-width: 768px) {
+  .carousel__btn {
+    display: none;
+  }
+}
