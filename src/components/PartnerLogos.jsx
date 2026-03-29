@@ -79,50 +79,20 @@ const logos = {
     </svg>
   ),
 
-  ATESS: ({ w = 120, h = 50 }) => (
-    <svg viewBox="0 0 140 50" width={w} height={h} xmlns="http://www.w3.org/2000/svg">
-      {/* Flame/drop icon */}
-      <path d="M14 6 C14 6 5 15 5 26 C5 33 9 40 14 40 C19 40 23 33 23 26 C23 15 14 6 14 6Z"
-        fill="#F97316"/>
-      <path d="M14 22 C14 22 10 28 10 32 C10 36 12 39 14 39 C16 39 18 36 18 32 C18 28 14 22 14 22Z"
-        fill="#fff"/>
-      <text x="32" y="34" fontFamily="Arial Black, sans-serif" fontSize="26" fontWeight="900"
-        fill="#F97316" letterSpacing="1">ATESS</text>
-    </svg>
+  ATESS: ({ w = 120 }) => (
+    <img src="/images/partners/atess.jpg" alt="ATESS" width={w} style={{ objectFit: 'contain', maxHeight: '50px' }} />
   ),
 
-  'Canadian Solar': ({ w = 130, h = 55 }) => (
-    <svg viewBox="0 0 160 55" width={w} height={h} xmlns="http://www.w3.org/2000/svg">
-      {/* CSI logo mark */}
-      <polygon points="12,5 22,5 12,25 22,25" fill="#F97316"/>
-      <polygon points="22,5 30,5 30,25 22,25 28,15" fill="#CC0000"/>
-      <text x="36" y="22" fontFamily="Arial, sans-serif" fontSize="14" fontWeight="900"
-        fill="#CC0000">Canadian</text>
-      <text x="36" y="38" fontFamily="Arial, sans-serif" fontSize="14" fontWeight="900"
-        fill="#F97316">Solar</text>
-      <line x1="36" y1="43" x2="136" y2="43" stroke="#eee" strokeWidth="1"/>
-      <text x="36" y="52" fontFamily="Arial, sans-serif" fontSize="8" fontWeight="300"
-        fill="#aaa" letterSpacing="1">A GLOBAL ENERGY COMPANY</text>
-    </svg>
+  'Canadian Solar': ({ w = 130 }) => (
+    <img src="/images/partners/canadian.png" alt="Canadian Solar" width={w} style={{ objectFit: 'contain', maxHeight: '55px' }} />
   ),
 
-  LONGi: ({ w = 120, h = 50 }) => (
-    <svg viewBox="0 0 130 50" width={w} height={h} xmlns="http://www.w3.org/2000/svg">
-      <text x="0" y="38" fontFamily="Arial, sans-serif" fontSize="34" fontWeight="900"
-        fill="#D01010" letterSpacing="-1">LONGi</text>
-    </svg>
+  LONGi: ({ w = 120 }) => (
+    <img src="/images/partners/longi.png" alt="LONGi" width={w} style={{ objectFit: 'contain', maxHeight: '50px' }} />
   ),
 
-  'JA Solar': ({ w = 120, h = 55 }) => (
-    <svg viewBox="0 0 130 55" width={w} height={h} xmlns="http://www.w3.org/2000/svg">
-      <rect x="0" y="0" width="50" height="38" rx="4" fill="#0B3F8A"/>
-      <text x="25" y="27" textAnchor="middle" fontFamily="Arial Black, sans-serif"
-        fontSize="20" fontWeight="900" fill="#fff" letterSpacing="1">JA</text>
-      <text x="58" y="22" fontFamily="Arial, sans-serif" fontSize="14" fontWeight="700"
-        fill="#0B3F8A">SOLAR</text>
-      <text x="58" y="36" fontFamily="Arial, sans-serif" fontSize="8" fontWeight="300"
-        fill="#888" letterSpacing="1">TECHNOLOGY CO., LTD.</text>
-    </svg>
+  'JA Solar': ({ w = 120 }) => (
+    <img src="/images/partners/jasolar.png" alt="JA Solar" width={w} style={{ objectFit: 'contain', maxHeight: '55px' }} />
   ),
 
   GHTL: ({ w = 110 }) => (
@@ -143,7 +113,7 @@ const logos = {
   ),
 
   Deye: ({ w = 120 }) => (
-    <img src="/images/partners/deye-1.png" alt="Deye" width={w} style={{ objectFit: 'contain', maxHeight: '50px' }} />
+    <img src="/images/partners/deye.jpg" alt="Deye" width={w} style={{ objectFit: 'contain', maxHeight: '50px' }} />
   ),
 };
 
