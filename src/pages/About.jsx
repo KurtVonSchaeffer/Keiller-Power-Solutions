@@ -26,6 +26,7 @@ export default function About() {
         subtitle="We strive to provide innovative energy management solutions that help our clients save money and reduce their carbon footprint."
         cta="Get in Touch"
         ctaTo="/contact"
+        image="/images/hero-about.jpg"
       />
 
       {/* Mission */}

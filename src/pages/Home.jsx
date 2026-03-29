@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { useEffect, useRef } from 'react';
 import Carousel from '../components/Carousel';
 import PartnerLogo, { PARTNER_LIST } from '../components/PartnerLogos';
+import Splash from '../components/Splash';
 import './Home.css';
 
 const stats = [
@@ -145,6 +146,8 @@ export default function Home() {
 
   return (
     <div className="home">
+      {/* ─── SPLASH TOP ─── */}
+      <Splash />
 
       {/* ─── HERO CAROUSEL ─── */}
       <section className="home__hero">
@@ -166,7 +169,7 @@ export default function Home() {
       </section>
 
       {/* ─── ABOUT STRIP ─── */}
-      <section className="section section--white">
+      <section className="section">
         <div className="container">
           <div className="home__about fade-up">
             <div className="home__about-text">
@@ -185,20 +188,20 @@ export default function Home() {
               </Link>
             </div>
             <div className="home__about-cards">
-              <div className="card card--blue">
+              <div className="card card--glass" style={{ borderBottom: '2px solid var(--blue)' }}>
                 <div style={{fontSize:'2rem',marginBottom:'12px'}}>🎯</div>
-                <h3 className="headline-md" style={{marginBottom:'8px'}}>Our Mission</h3>
-                <p className="body-md" style={{color:'rgba(255,255,255,0.8)'}}>Create a sustainable future by empowering businesses to make smart energy choices.</p>
+                <h3 className="headline-md" style={{margin:'0 0 8px'}}>Our Mission</h3>
+                <p className="body-md" style={{color:'var(--text-light)'}}>Create a sustainable future by empowering businesses to make smart energy choices.</p>
               </div>
-              <div className="card card--white">
+              <div className="card card--glass" style={{ borderBottom: '2px solid var(--white)' }}>
                 <div style={{fontSize:'2rem',marginBottom:'12px'}}>🏆</div>
-                <h3 className="headline-md" style={{marginBottom:'8px'}}>Our Experience</h3>
-                <p className="body-md">Years of delivering customized solutions across all industries in South Africa.</p>
+                <h3 className="headline-md" style={{margin:'0 0 8px'}}>Our Experience</h3>
+                <p className="body-md" style={{color:'var(--text-light)'}}>Years of delivering customized solutions across all industries in South Africa.</p>
               </div>
-              <div className="card card--orange">
+              <div className="card card--glass" style={{ borderBottom: '2px solid var(--orange)' }}>
                 <div style={{fontSize:'2rem',marginBottom:'12px'}}>🔬</div>
-                <h3 className="headline-md" style={{marginBottom:'8px',color:'#fff'}}>Our Approach</h3>
-                <p className="body-md" style={{color:'rgba(255,255,255,0.85)'}}>Data-driven audits, tailored systems, and ongoing support to maximize ROI.</p>
+                <h3 className="headline-md" style={{margin:'0 0 8px'}}>Our Approach</h3>
+                <p className="body-md" style={{color:'var(--text-light)'}}>Data-driven audits, tailored systems, and ongoing support to maximize ROI.</p>
               </div>
             </div>
           </div>
@@ -206,7 +209,7 @@ export default function Home() {
       </section>
 
       {/* ─── SERVICES ─── */}
-      <section className="section section--light">
+      <section className="section">
         <div className="container">
           <div className="section-header fade-up">
             <span className="label">What We Do</span>
@@ -217,10 +220,10 @@ export default function Home() {
           </div>
           <div className="grid-3" style={{marginTop:'56px'}}>
             {services.map((s, i) => (
-              <div key={i} className="card card--white fade-up" style={{animationDelay:`${i*80}ms`}}>
-                <div className="service-icon-light">{s.icon}</div>
+              <div key={i} className="card card--glass fade-up" style={{animationDelay:`${i*80}ms`}}>
+                <div className="service-icon">{s.icon}</div>
                 <h3 className="headline-md" style={{margin:'16px 0 10px'}}>{s.title}</h3>
-                <p className="body-md">{s.desc}</p>
+                <p className="body-md" style={{color:'var(--text-light)'}}>{s.desc}</p>
               </div>
             ))}
           </div>
@@ -233,17 +236,17 @@ export default function Home() {
       </section>
 
       {/* ─── PARTNERS STRIP ─── */}
-      <section className="section section--white partners-section">
+      <section className="section partners-section">
         <div className="container">
           <div className="section-header fade-up">
             <span className="label">Our Partners</span>
-            <h2 className="headline-lg" style={{marginTop:'12px',color:'var(--text-dark)'}}>Trusted Brands We Work With</h2>
-            <p style={{marginTop:'12px',color:'var(--text-mid)',fontSize:'1.05rem'}}>
+            <h2 className="headline-lg" style={{marginTop:'12px',color:'var(--white)'}}>Trusted Brands We Work With</h2>
+            <p style={{marginTop:'12px',color:'var(--text-light)',fontSize:'1.05rem'}}>
               We exclusively partner with world-class manufacturers to ensure every installation meets the highest standards.
             </p>
           </div>
-          <div className="partners-marquee-light fade-up">
-            <div className="partners-track-light">
+          <div className="partners-marquee fade-up">
+            <div className="partners-track">
               {[...PARTNER_LIST, ...PARTNER_LIST].map((name, i) => (
                 <div key={i} className="partner-logo-card">
                   <PartnerLogo name={name} width={110} height={50} />

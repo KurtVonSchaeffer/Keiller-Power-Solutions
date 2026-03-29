@@ -45,3 +45,13 @@
 .page-hero .label {
   color: var(--orange) !important;
 }
+
+@media (max-width: 768px) {
+  .page-hero {
+    padding: 120px 0 60px;
+  }
+  .page-hero__glow {
+    width: 400px; height: 400px;
+    top: -100px; right: -100px;
+  }
+}

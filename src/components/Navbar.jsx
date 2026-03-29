@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { NavLink, Link } from 'react-router-dom';
+import KPLogo from './KPLogo';
 import './Navbar.css';
 
 const links = [
@@ -28,9 +29,9 @@ export default function Navbar() {
   return (
     <header className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="navbar__inner container">
-        {/* Logo — CSS filter makes it white on dark nav */}
+        {/* Logo — KPLogo handles variant="white" for dark backgrounds */}
         <Link to="/" className="navbar__logo" aria-label="KP Solutions Home">
-          <img src="/logo.png" alt="KP Solutions" className="navbar__logo-img" />
+          <KPLogo variant="white" className="navbar__logo-svg" size={160} />
         </Link>
 
         {/* Desktop Nav */}

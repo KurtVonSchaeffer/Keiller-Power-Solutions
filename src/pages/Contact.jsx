@@ -11,7 +11,14 @@ export default function Contact() {
   const handleSubmit = async e => {
     e.preventDefault();
     setLoading(true);
-    await new Promise(r => setTimeout(r, 1200)); // simulate send
+    
+    // Construct email content
+    const subject = encodeURIComponent(`Website Enquiry from ${form.name}`);
+    const body = encodeURIComponent(`Name: ${form.name}\nEmail: ${form.email}\nPhone: ${form.phone}\nService: ${form.service}\n\nMessage:\n${form.message}`);
+    
+    // Trigger native mail client
+    window.location.href = `mailto:yaasinek@kp-solutions.co.za?subject=${subject}&body=${body}`;
+    
     setSent(true);
     setLoading(false);
   };
@@ -23,6 +30,7 @@ export default function Contact() {
         title="Let's Power Your"
         accent="Future Together"
         subtitle="Get in touch with our team for a free, no-obligation energy consultation tailored to your business."
+        image="/images/hero-contact.jpg"
       />
 
       <section className="section">
@@ -59,8 +67,12 @@ export default function Contact() {
               {/* Social */}
               <h3 style={{ fontWeight: 700, marginBottom: '16px', fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '0.1em', color: 'var(--grey)' }}>Follow Us</h3>
               <div style={{ display: 'flex', gap: '12px' }}>
-                {['Instagram', 'LinkedIn', 'TikTok'].map((s, i) => (
-                  <a key={i} href="#" style={{
+                {[
+                  { name: 'Instagram', icon: '📸', url: 'https://www.instagram.com/kp_solutions1' },
+                  { name: 'LinkedIn', icon: '💼', url: 'https://www.linkedin.com/yaasinekeiller?_l=en_US' },
+                  { name: 'TikTok', icon: '🎵', url: 'https://www.tiktok.com/@yaasine.keiller' }
+                ].map((s, i) => (
+                  <a key={i} href={s.url} target="_blank" rel="noreferrer" style={{
                     padding: '8px 20px',
                     borderRadius: '999px',
                     border: '1px solid var(--border)',
@@ -73,7 +85,7 @@ export default function Contact() {
                   onMouseOver={e => { e.currentTarget.style.borderColor='var(--purple)'; e.currentTarget.style.color='#fff'; }}
                   onMouseOut={e => { e.currentTarget.style.borderColor='var(--border)'; e.currentTarget.style.color='var(--grey-light)'; }}
                   >
-                    {['📸','💼','🎵'][i]} {s}
+                    {s.icon} {s.name}
                   </a>
                 ))}
               </div>
@@ -198,6 +210,10 @@ export default function Contact() {
         @media (max-width: 900px) {
           div[style*="grid-template-columns: 1fr 1.2fr"] { grid-template-columns: 1fr !important; }
           div[style*="grid-template-columns: 1fr 1fr"] { grid-template-columns: 1fr !important; }
+        }
+        @media (max-width: 500px) {
+          .card--glass[style*="padding: 40px"] { padding: 24px !important; }
+          .card--glass[style*="padding: 60px 40px"] { padding: 40px 24px !important; }
         }
       `}</style>
     </div>

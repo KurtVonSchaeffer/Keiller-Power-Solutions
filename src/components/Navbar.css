@@ -24,15 +24,17 @@
   gap: 10px;
   flex-shrink: 0;
 }
-/* The real logo.png — CSS filter makes it white on dark background */
-.navbar__logo-img {
-  height: 44px;
+/* The new SVG logo */
+.navbar__logo-svg {
+  height: 120px;
   width: auto;
-  /* Convert any colour to white */
-  filter: brightness(0) invert(1);
-  transition: opacity 0.3s;
+  transition: all 0.3s;
 }
-.navbar__logo-img:hover { opacity: 0.85; }
+.navbar__logo-svg:hover { opacity: 0.85; }
+
+.navbar--scrolled .navbar__logo-svg {
+  height: 80px;
+}
 
 .navbar__links {
   display: flex;

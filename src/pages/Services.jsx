@@ -71,6 +71,7 @@ export default function Services() {
         subtitle="From audits and design to installation and ongoing support — we handle every aspect of your energy journey."
         cta="Request a Quote"
         ctaTo="/contact"
+        image="/images/hero-services.jpg"
       />
 
       {/* Services grid */}

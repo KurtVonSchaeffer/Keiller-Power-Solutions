@@ -172,6 +172,7 @@ export default function Gallery() {
         subtitle="Browse through our portfolio of solar, battery storage, and energy efficiency projects across South Africa."
         cta="Start Your Project"
         ctaTo="/contact"
+        image="/images/hero-gallery.jpg"
       />
 
       {/* Featured carousel */}

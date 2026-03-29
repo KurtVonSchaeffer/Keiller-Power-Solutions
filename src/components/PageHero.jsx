@@ -1,9 +1,15 @@
 import { Link } from 'react-router-dom';
 import './PageHero.css';
 
-export default function PageHero({ label, title, subtitle, cta, ctaTo = '/contact', accent }) {
+export default function PageHero({ label, title, subtitle, cta, ctaTo = '/contact', accent, image }) {
+  const bgStyle = image ? {
+    backgroundImage: `linear-gradient(to right, rgba(11,14,26,0.9) 0%, rgba(11,14,26,0.7) 50%, rgba(11,14,26,0.9) 100%), url(${image})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+  } : {};
+
   return (
-    <section className="page-hero">
+    <section className="page-hero" style={bgStyle}>
       <div className="page-hero__glow" />
       <div className="container page-hero__inner">
         {label && <span className="label">{label}</span>}

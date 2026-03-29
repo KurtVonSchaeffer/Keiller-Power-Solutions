@@ -20,6 +20,7 @@ export default function Partners() {
         subtitle="We work exclusively with world-class manufacturers to ensure every installation meets the highest standards of quality and performance."
         cta="View Our Projects"
         ctaTo="/gallery"
+        image="/images/hero-partners.jpg"
       />
 
       {/* Category highlight strip */}
