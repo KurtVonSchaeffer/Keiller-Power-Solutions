@@ -14,69 +14,23 @@ const logos = {
   ),
 
   'IBC Solar': ({ w = 120, h = 60 }) => (
-    <svg viewBox="0 0 150 70" width={w} height={h} xmlns="http://www.w3.org/2000/svg">
-      <rect x="0" y="0" width="32" height="32" rx="3" fill="#CC1B1B"/>
-      <rect x="36" y="0" width="32" height="32" rx="3" fill="#CC1B1B"/>
-      <rect x="18" y="36" width="32" height="32" rx="3" fill="#CC1B1B"/>
-      <text x="90" y="25" textAnchor="start" fontFamily="Arial Black, sans-serif"
-        fontSize="22" fontWeight="900" fill="#1A1A1A" letterSpacing="1">IBC</text>
-      <text x="90" y="55" textAnchor="start" fontFamily="Arial, sans-serif"
-        fontSize="16" fontWeight="700" fill="#CC1B1B" letterSpacing="2">SOLAR</text>
-    </svg>
+    <img src="/images/partners/ibcsolar.png" alt="IBC Solar" width={w} height={h} style={{ objectFit: 'contain' }} />
   ),
 
   GoodWe: ({ w = 120, h = 50 }) => (
-    <svg viewBox="0 0 160 50" width={w} height={h} xmlns="http://www.w3.org/2000/svg">
-      <text x="0" y="38" fontFamily="Arial, sans-serif" fontSize="34" fontWeight="900"
-        fill="#009F5D" letterSpacing="-1">GOODWE</text>
-      <text x="0" y="50" fontFamily="Arial, sans-serif" fontSize="9" fontWeight="400"
-        fill="#888" letterSpacing="2">Smart Energy Controller</text>
-    </svg>
+    <img src="/images/partners/goodwe.png" alt="GoodWe" width={w} height={h} style={{ objectFit: 'contain' }} />
   ),
 
   SolarMD: ({ w = 120, h = 60 }) => (
-    <svg viewBox="0 0 130 60" width={w} height={h} xmlns="http://www.w3.org/2000/svg">
-      {/* Star */}
-      <polygon points="22,5 26,18 40,18 29,26 33,40 22,32 11,40 15,26 4,18 18,18"
-        fill="#F5C518" stroke="#E6A800" strokeWidth="1"/>
-      <text x="48" y="32" fontFamily="Arial, sans-serif" fontSize="15" fontWeight="400"
-        fill="#444">solar</text>
-      <text x="101" y="32" fontFamily="Arial Black, sans-serif" fontSize="15" fontWeight="900"
-        fill="#1A1A1A">MD</text>
-      <text x="48" y="48" fontFamily="Arial, sans-serif" fontSize="8" fontWeight="300"
-        fill="#888" letterSpacing="0.5">smart energy solutions</text>
-    </svg>
+    <img src="/images/partners/solarmd.png" alt="SolarMD" width={w} height={h} style={{ objectFit: 'contain' }} />
   ),
 
   Dyness: ({ w = 120, h = 50 }) => (
-    <svg viewBox="0 0 130 50" width={w} height={h} xmlns="http://www.w3.org/2000/svg">
-      <rect x="0" y="0" width="22" height="8" rx="1" fill="#6AB023"/>
-      <rect x="0" y="12" width="22" height="8" rx="1" fill="#6AB023"/>
-      <rect x="0" y="24" width="22" height="8" rx="1" fill="#6AB023"/>
-      <text x="30" y="35" fontFamily="Arial, sans-serif" fontSize="26" fontWeight="700"
-        fill="#6AB023">dyness</text>
-    </svg>
+    <img src="/images/partners/dyness.png" alt="Dyness" width={w} height={h} style={{ objectFit: 'contain' }} />
   ),
 
   SunSynk: ({ w = 130, h = 55 }) => (
-    <svg viewBox="0 0 160 55" width={w} height={h} xmlns="http://www.w3.org/2000/svg">
-      {/* Sun icon */}
-      <circle cx="22" cy="27" r="11" fill="#F97316"/>
-      <line x1="22" y1="5"  x2="22" y2="11" stroke="#F97316" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="22" y1="43" x2="22" y2="49" stroke="#F97316" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="44" y1="27" x2="38" y2="27" stroke="#F97316" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="0"  y1="27" x2="6"  y2="27" stroke="#F97316" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="37" y1="12" x2="33" y2="16" stroke="#F97316" strokeWidth="2" strokeLinecap="round"/>
-      <line x1="7"  y1="42" x2="11" y2="38" stroke="#F97316" strokeWidth="2" strokeLinecap="round"/>
-      <line x1="7"  y1="12" x2="11" y2="16" stroke="#F97316" strokeWidth="2" strokeLinecap="round"/>
-      <line x1="37" y1="42" x2="33" y2="38" stroke="#F97316" strokeWidth="2" strokeLinecap="round"/>
-      <text x="52" y="22" fontFamily="Arial, sans-serif" fontSize="11" fontWeight="700"
-        fill="#F97316" letterSpacing="2">SUN</text>
-      <text x="52" y="38" fontFamily="Arial, sans-serif" fontSize="11" fontWeight="700"
-        fill="#F97316" letterSpacing="2">SYNK</text>
-      <text x="52" y="50" fontFamily="Arial, sans-serif" fontSize="7" fontWeight="300"
-        fill="#999" letterSpacing="1">INVERTER</text>
-    </svg>
+    <img src="/images/partners/sunsynk.png" alt="SunSynk" width={w} height={h} style={{ objectFit: 'contain' }} />
   ),
 
   ATESS: ({ w = 120 }) => (
@@ -113,7 +67,7 @@ const logos = {
   ),
 
   Deye: ({ w = 120 }) => (
-    <img src="/images/partners/deye.jpg" alt="Deye" width={w} style={{ objectFit: 'contain', maxHeight: '50px' }} />
+    <img src="/images/partners/deye.png" alt="Deye" width={w} style={{ objectFit: 'contain', maxHeight: '50px' }} />
   ),
 };
 
