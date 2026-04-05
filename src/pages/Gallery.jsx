@@ -493,7 +493,13 @@ function ProjectCard({ project, onOpenVideo, onOpenLightbox }) {
   const hasMultiple = project.images && project.images.length > 1;
 
   return (
-    <div className="gallery-card" onClick={() => isVideo ? onOpenVideo(project.videoUrl) : onOpenLightbox(project)}>
+    <div 
+      className="gallery-card" 
+      role="button" 
+      tabIndex={0} 
+      onKeyDown={(e) => { if (e.key === 'Enter') isVideo ? onOpenVideo(project.videoUrl) : onOpenLightbox(project); }}
+      onClick={() => isVideo ? onOpenVideo(project.videoUrl) : onOpenLightbox(project)}
+    >
       <div className="gallery-card__inner">
         <div className="gallery-card__image-wrap">
           <img src={encodeURI(project.image)} alt={project.title} className="gallery-card__image"
