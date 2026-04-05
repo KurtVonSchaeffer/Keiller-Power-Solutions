@@ -9,15 +9,15 @@ const projects = [
     category: 'Residential',
     title: 'Umhlanga Sunsynk System',
     caption: 'Complete SunSynk hybrid inverter installation with PV combiner boxes, battery storage, and full DB distribution for a premium coastal residence.',
-    image: '/images/gallery/umhanga/UM1.jpg',
+    image: '/images/gallery/umhlanga/umhlanga-1.jpg',
     images: [
-      '/images/gallery/umhanga/UM1.jpg',
-      '/images/gallery/umhanga/Um2.jpg',
-      '/images/gallery/umhanga/Um3.jpg',
-      '/images/gallery/umhanga/Um4.jpg',
-      '/images/gallery/umhanga/Um5.jpg',
-      '/images/gallery/umhanga/Um7.jpg',
-      '/images/gallery/umhanga/um6.jpg'
+      '/images/gallery/umhlanga/umhlanga-1.jpg',
+      '/images/gallery/umhlanga/umhlanga-2.jpg',
+      '/images/gallery/umhlanga/umhlanga-3.jpg',
+      '/images/gallery/umhlanga/umhlanga-4.jpg',
+      '/images/gallery/umhlanga/umhlanga-5.jpg',
+      '/images/gallery/umhlanga/umhlanga-6.jpg',
+      '/images/gallery/umhlanga/umhlanga-7.jpg'
     ],
     location: 'Umhlanga, KZN',
   },
@@ -26,13 +26,13 @@ const projects = [
     category: 'Residential',
     title: 'Durban Residential',
     caption: 'Premium residential solar and battery installation delivering reliable energy independence for a Durban home.',
-    image: '/images/gallery/durban/PHOTO-2026-03-30-20-21-41 2.jpg',
+    image: '/images/gallery/durban/photo-2026-03-30-20-21-41-2.jpg',
     images: [
-      '/images/gallery/durban/PHOTO-2026-03-30-20-21-41 2.jpg',
-      '/images/gallery/durban/PHOTO-2026-03-30-20-21-41.jpg',
-      '/images/gallery/durban/PHOTO-2026-03-30-20-21-42.jpg',
-      '/images/gallery/durban/PHOTO-2026-03-30-20-21-43 2.jpg',
-      '/images/gallery/durban/PHOTO-2026-03-30-20-21-43.jpg'
+      '/images/gallery/durban/photo-2026-03-30-20-21-41-2.jpg',
+      '/images/gallery/durban/photo-2026-03-30-20-21-41.jpg',
+      '/images/gallery/durban/photo-2026-03-30-20-21-42.jpg',
+      '/images/gallery/durban/photo-2026-03-30-20-21-43-2.jpg',
+      '/images/gallery/durban/photo-2026-03-30-20-21-43.jpg'
     ],
     location: 'Durban, KZN',
   },
@@ -41,14 +41,14 @@ const projects = [
     category: 'Residential',
     title: 'Chatsworth Installation',
     caption: 'Successful solar inverter and high-efficiency rooftop panel installation with outstanding results.',
-    image: '/images/gallery/chatsworth/PHOTO-2026-03-30-20-23-22.jpg',
+    image: '/images/gallery/chatsworth/photo-2026-03-30-20-23-22.jpg',
     images: [
-      '/images/gallery/chatsworth/PHOTO-2026-03-30-20-23-22.jpg',
-      '/images/gallery/chatsworth/PHOTO-2026-03-30-20-23-23 2.jpg',
-      '/images/gallery/chatsworth/PHOTO-2026-03-30-20-23-23.jpg',
-      '/images/gallery/chatsworth/PHOTO-2026-03-30-20-23-24 2.jpg',
-      '/images/gallery/chatsworth/PHOTO-2026-03-30-20-23-24 3.jpg',
-      '/images/gallery/chatsworth/PHOTO-2026-03-30-20-23-24.jpg'
+      '/images/gallery/chatsworth/photo-2026-03-30-20-23-22.jpg',
+      '/images/gallery/chatsworth/photo-2026-03-30-20-23-23-2.jpg',
+      '/images/gallery/chatsworth/photo-2026-03-30-20-23-23.jpg',
+      '/images/gallery/chatsworth/photo-2026-03-30-20-23-24-2.jpg',
+      '/images/gallery/chatsworth/photo-2026-03-30-20-23-24-3.jpg',
+      '/images/gallery/chatsworth/photo-2026-03-30-20-23-24.jpg'
     ],
     location: 'Chatsworth, KZN',
   },
@@ -57,12 +57,12 @@ const projects = [
     category: 'Residential',
     title: 'Lanseria Estate Hub',
     caption: 'Premium solar and battery integration for large-scale energy demands in a luxury estate environment.',
-    image: '/images/gallery/lanseria/PHOTO-2026-03-30-20-26-35 2.jpg',
+    image: '/images/gallery/lanseria/photo-2026-03-30-20-26-35-2.jpg',
     images: [
-      '/images/gallery/lanseria/PHOTO-2026-03-30-20-26-35 2.jpg',
-      '/images/gallery/lanseria/PHOTO-2026-03-30-20-26-35.jpg',
-      '/images/gallery/lanseria/PHOTO-2026-03-30-20-26-36 2.jpg',
-      '/images/gallery/lanseria/PHOTO-2026-03-30-20-26-36.jpg'
+      '/images/gallery/lanseria/photo-2026-03-30-20-26-35-2.jpg',
+      '/images/gallery/lanseria/photo-2026-03-30-20-26-35.jpg',
+      '/images/gallery/lanseria/photo-2026-03-30-20-26-36-2.jpg',
+      '/images/gallery/lanseria/photo-2026-03-30-20-26-36.jpg'
     ],
     location: 'Lanseria, GP',
   },
@@ -84,15 +84,15 @@ const projects = [
     category: 'Residential',
     title: 'Edenvale Solar System',
     caption: 'Robust solar system installation delivering full home energy independence and load-shedding protection.',
-    image: '/images/gallery/edenvale/PHOTO-2026-03-30-20-33-36 2.jpg',
+    image: '/images/gallery/edenvale/photo-2026-03-30-20-33-36-2.jpg',
     images: [
-      '/images/gallery/edenvale/PHOTO-2026-03-30-20-33-36 2.jpg',
-      '/images/gallery/edenvale/PHOTO-2026-03-30-20-33-36.jpg',
-      '/images/gallery/edenvale/PHOTO-2026-03-30-20-33-37 2.jpg',
-      '/images/gallery/edenvale/PHOTO-2026-03-30-20-33-37.jpg',
-      '/images/gallery/edenvale/PHOTO-2026-03-30-20-33-38 2.jpg',
-      '/images/gallery/edenvale/PHOTO-2026-03-30-20-33-38.jpg',
-      '/images/gallery/edenvale/PHOTO-2026-03-30-20-33-39.jpg'
+      '/images/gallery/edenvale/photo-2026-03-30-20-33-36-2.jpg',
+      '/images/gallery/edenvale/photo-2026-03-30-20-33-36.jpg',
+      '/images/gallery/edenvale/photo-2026-03-30-20-33-37-2.jpg',
+      '/images/gallery/edenvale/photo-2026-03-30-20-33-37.jpg',
+      '/images/gallery/edenvale/photo-2026-03-30-20-33-38-2.jpg',
+      '/images/gallery/edenvale/photo-2026-03-30-20-33-38.jpg',
+      '/images/gallery/edenvale/photo-2026-03-30-20-33-39.jpg'
     ],
     location: 'Edenvale, GP',
   },
@@ -101,13 +101,13 @@ const projects = [
     category: 'Residential',
     title: 'Solar Edenvale',
     caption: 'High-efficiency solar PV system with smart monitoring for a modern Edenvale residence.',
-    image: '/images/gallery/solar-edenvale/PHOTO-2026-03-30-20-54-41 2.jpg',
+    image: '/images/gallery/solar-edenvale/photo-2026-03-30-20-54-41-2.jpg',
     images: [
-      '/images/gallery/solar-edenvale/PHOTO-2026-03-30-20-54-41 2.jpg',
-      '/images/gallery/solar-edenvale/PHOTO-2026-03-30-20-54-41 3.jpg',
-      '/images/gallery/solar-edenvale/PHOTO-2026-03-30-20-54-41.jpg',
-      '/images/gallery/solar-edenvale/PHOTO-2026-03-30-20-54-42 2.jpg',
-      '/images/gallery/solar-edenvale/PHOTO-2026-03-30-20-54-42.jpg'
+      '/images/gallery/solar-edenvale/photo-2026-03-30-20-54-41-2.jpg',
+      '/images/gallery/solar-edenvale/photo-2026-03-30-20-54-41-3.jpg',
+      '/images/gallery/solar-edenvale/photo-2026-03-30-20-54-41.jpg',
+      '/images/gallery/solar-edenvale/photo-2026-03-30-20-54-42-2.jpg',
+      '/images/gallery/solar-edenvale/photo-2026-03-30-20-54-42.jpg'
     ],
     location: 'Edenvale, GP',
   },
@@ -116,12 +116,12 @@ const projects = [
     category: 'Residential',
     title: 'Alberton Luxpower',
     caption: 'Luxpower hybrid inverter paired with lithium storage for consistent uptime during load-shedding.',
-    image: '/images/gallery/alberton/PHOTO-2026-03-30-20-35-05 2.jpg',
+    image: '/images/gallery/alberton/photo-2026-03-30-20-35-05-2.jpg',
     images: [
-      '/images/gallery/alberton/PHOTO-2026-03-30-20-35-05 2.jpg',
-      '/images/gallery/alberton/PHOTO-2026-03-30-20-35-05.jpg',
-      '/images/gallery/alberton/PHOTO-2026-03-30-20-35-06 2.jpg',
-      '/images/gallery/alberton/PHOTO-2026-03-30-20-35-06.jpg'
+      '/images/gallery/alberton/photo-2026-03-30-20-35-05-2.jpg',
+      '/images/gallery/alberton/photo-2026-03-30-20-35-05.jpg',
+      '/images/gallery/alberton/photo-2026-03-30-20-35-06-2.jpg',
+      '/images/gallery/alberton/photo-2026-03-30-20-35-06.jpg'
     ],
     location: 'Alberton, GP',
   },
@@ -130,14 +130,14 @@ const projects = [
     category: 'Residential',
     title: 'Hail Damage Restoration',
     caption: 'Professional assessment and replacement of solar panels post-hail, restoring full system output.',
-    image: '/images/gallery/repairs-to-hail-damage/PHOTO-2026-03-30-20-30-08.jpg',
+    image: '/images/gallery/repairs-to-hail-damage/photo-2026-03-30-20-30-08.jpg',
     images: [
-      '/images/gallery/repairs-to-hail-damage/PHOTO-2026-03-30-20-30-08.jpg',
-      '/images/gallery/repairs-to-hail-damage/PHOTO-2026-03-30-20-30-09.jpg',
-      '/images/gallery/repairs-to-hail-damage/PHOTO-2026-03-30-20-30-10 2.jpg',
-      '/images/gallery/repairs-to-hail-damage/PHOTO-2026-03-30-20-30-10 3.jpg',
-      '/images/gallery/repairs-to-hail-damage/PHOTO-2026-03-30-20-30-10.jpg',
-      '/images/gallery/repairs-to-hail-damage/PHOTO-2026-03-30-20-30-11.jpg'
+      '/images/gallery/repairs-to-hail-damage/photo-2026-03-30-20-30-08.jpg',
+      '/images/gallery/repairs-to-hail-damage/photo-2026-03-30-20-30-09.jpg',
+      '/images/gallery/repairs-to-hail-damage/photo-2026-03-30-20-30-10-2.jpg',
+      '/images/gallery/repairs-to-hail-damage/photo-2026-03-30-20-30-10-3.jpg',
+      '/images/gallery/repairs-to-hail-damage/photo-2026-03-30-20-30-10.jpg',
+      '/images/gallery/repairs-to-hail-damage/photo-2026-03-30-20-30-11.jpg'
     ],
     location: 'Pretoria, GP',
   },
@@ -147,13 +147,13 @@ const projects = [
     category: 'Battery',
     title: 'Moreleta Park Battery System',
     caption: 'Custom battery storage installation providing reliable backup power for a Moreleta Park residence.',
-    image: '/images/gallery/moleta-park/115b816b-4cd6-4cac-8792-7bf9e77232c7.JPG',
+    image: '/images/gallery/moleta-park/115b816b-4cd6-4cac-8792-7bf9e77232c7.jpg',
     images: [
-      '/images/gallery/moleta-park/115b816b-4cd6-4cac-8792-7bf9e77232c7.JPG',
-      '/images/gallery/moleta-park/54c02e04-2946-4c7a-8f12-72d3af240984.JPG',
-      '/images/gallery/moleta-park/5bc35507-d1eb-44d5-8325-0c23e8a562b6.JPG',
-      '/images/gallery/moleta-park/949f9e40-4aab-47ee-a2db-23c501eee922.JPG',
-      '/images/gallery/moleta-park/fcb295f9-b439-4fc4-b8f5-5a7cf2bf3a3b.JPG'
+      '/images/gallery/moleta-park/115b816b-4cd6-4cac-8792-7bf9e77232c7.jpg',
+      '/images/gallery/moleta-park/54c02e04-2946-4c7a-8f12-72d3af240984.jpg',
+      '/images/gallery/moleta-park/5bc35507-d1eb-44d5-8325-0c23e8a562b6.jpg',
+      '/images/gallery/moleta-park/949f9e40-4aab-47ee-a2db-23c501eee922.jpg',
+      '/images/gallery/moleta-park/fcb295f9-b439-4fc4-b8f5-5a7cf2bf3a3b.jpg'
     ],
     location: 'Moreleta Park, GP',
   },
@@ -162,14 +162,14 @@ const projects = [
     category: 'Battery',
     title: 'Moreleta Park 2 — Energy Storage',
     caption: 'Second-phase battery storage expansion delivering increased capacity and load-shedding resilience.',
-    image: '/images/gallery/morleta-park-2/PHOTO-2026-03-30-20-32-31 2.jpg',
+    image: '/images/gallery/morleta-park-2/photo-2026-03-30-20-32-31-2.jpg',
     images: [
-      '/images/gallery/morleta-park-2/PHOTO-2026-03-30-20-32-31 2.jpg',
-      '/images/gallery/morleta-park-2/PHOTO-2026-03-30-20-32-31 3.jpg',
-      '/images/gallery/morleta-park-2/PHOTO-2026-03-30-20-32-31.jpg',
-      '/images/gallery/morleta-park-2/PHOTO-2026-03-30-20-32-32 2.jpg',
-      '/images/gallery/morleta-park-2/PHOTO-2026-03-30-20-32-32 3.jpg',
-      '/images/gallery/morleta-park-2/PHOTO-2026-03-30-20-32-32.jpg'
+      '/images/gallery/morleta-park-2/photo-2026-03-30-20-32-31-2.jpg',
+      '/images/gallery/morleta-park-2/photo-2026-03-30-20-32-31-3.jpg',
+      '/images/gallery/morleta-park-2/photo-2026-03-30-20-32-31.jpg',
+      '/images/gallery/morleta-park-2/photo-2026-03-30-20-32-32-2.jpg',
+      '/images/gallery/morleta-park-2/photo-2026-03-30-20-32-32-3.jpg',
+      '/images/gallery/morleta-park-2/photo-2026-03-30-20-32-32.jpg'
     ],
     location: 'Moreleta Park, GP',
   },
@@ -179,11 +179,11 @@ const projects = [
     category: 'Commercial',
     title: 'Commercial Installation 1',
     caption: 'Professional commercial solar installation delivering reliable energy and significant cost savings.',
-    image: '/images/gallery/commercial-1/PHOTO-2026-03-30-20-27-16 2.jpg',
+    image: '/images/gallery/commercial-1/photo-2026-03-30-20-27-16-2.jpg',
     images: [
-      '/images/gallery/commercial-1/PHOTO-2026-03-30-20-27-16 2.jpg',
-      '/images/gallery/commercial-1/PHOTO-2026-03-30-20-27-16.jpg',
-      '/images/gallery/commercial-1/PHOTO-2026-03-30-20-27-17.jpg'
+      '/images/gallery/commercial-1/photo-2026-03-30-20-27-16-2.jpg',
+      '/images/gallery/commercial-1/photo-2026-03-30-20-27-16.jpg',
+      '/images/gallery/commercial-1/photo-2026-03-30-20-27-17.jpg'
     ],
     location: 'Gauteng, GP',
   },
@@ -192,14 +192,14 @@ const projects = [
     category: 'Commercial',
     title: 'Commercial Installation 2',
     caption: 'Large-scale commercial energy system providing sustained grid independence and load-shedding protection.',
-    image: '/images/gallery/commercial-2/PHOTO-2026-03-30-20-31-32.jpg',
+    image: '/images/gallery/commercial-2/photo-2026-03-30-20-31-32.jpg',
     images: [
-      '/images/gallery/commercial-2/PHOTO-2026-03-30-20-31-32.jpg',
-      '/images/gallery/commercial-2/PHOTO-2026-03-30-20-31-33 2.jpg',
-      '/images/gallery/commercial-2/PHOTO-2026-03-30-20-31-33.jpg',
-      '/images/gallery/commercial-2/PHOTO-2026-03-30-20-31-35 2.jpg',
-      '/images/gallery/commercial-2/PHOTO-2026-03-30-20-31-35.jpg',
-      '/images/gallery/commercial-2/PHOTO-2026-03-30-20-31-36.jpg'
+      '/images/gallery/commercial-2/photo-2026-03-30-20-31-32.jpg',
+      '/images/gallery/commercial-2/photo-2026-03-30-20-31-33-2.jpg',
+      '/images/gallery/commercial-2/photo-2026-03-30-20-31-33.jpg',
+      '/images/gallery/commercial-2/photo-2026-03-30-20-31-35-2.jpg',
+      '/images/gallery/commercial-2/photo-2026-03-30-20-31-35.jpg',
+      '/images/gallery/commercial-2/photo-2026-03-30-20-31-36.jpg'
     ],
     location: 'Gauteng, GP',
   },
@@ -208,13 +208,13 @@ const projects = [
     category: 'Commercial',
     title: 'Sigenergy Commercial ESS',
     caption: 'Advanced Sigenergy Energy Storage System (ESS) for high-demand commercial power management.',
-    image: '/images/gallery/sinergy-comercial/PHOTO-2026-03-30-20-36-30 2.jpg',
+    image: '/images/gallery/sinergy-comercial/photo-2026-03-30-20-36-30-2.jpg',
     images: [
-      '/images/gallery/sinergy-comercial/PHOTO-2026-03-30-20-36-30 2.jpg',
-      '/images/gallery/sinergy-comercial/PHOTO-2026-03-30-20-36-30 3.jpg',
-      '/images/gallery/sinergy-comercial/PHOTO-2026-03-30-20-36-30.jpg',
-      '/images/gallery/sinergy-comercial/PHOTO-2026-03-30-20-36-31 2.jpg',
-      '/images/gallery/sinergy-comercial/PHOTO-2026-03-30-20-36-31.jpg'
+      '/images/gallery/sinergy-comercial/photo-2026-03-30-20-36-30-2.jpg',
+      '/images/gallery/sinergy-comercial/photo-2026-03-30-20-36-30-3.jpg',
+      '/images/gallery/sinergy-comercial/photo-2026-03-30-20-36-30.jpg',
+      '/images/gallery/sinergy-comercial/photo-2026-03-30-20-36-31-2.jpg',
+      '/images/gallery/sinergy-comercial/photo-2026-03-30-20-36-31.jpg'
     ],
     location: 'Johannesburg, GP',
   },
@@ -223,13 +223,13 @@ const projects = [
     category: 'Commercial',
     title: 'Benoni Commercial',
     caption: 'Industrial-grade commercial solar and storage solution for a Benoni business facility.',
-    image: '/images/gallery/commercial-benonie/PHOTO-2026-03-30-20-38-27 2.jpg',
+    image: '/images/gallery/commercial-benonie/photo-2026-03-30-20-38-27-2.jpg',
     images: [
-      '/images/gallery/commercial-benonie/PHOTO-2026-03-30-20-38-27 2.jpg',
-      '/images/gallery/commercial-benonie/PHOTO-2026-03-30-20-38-27.jpg',
-      '/images/gallery/commercial-benonie/PHOTO-2026-03-30-20-38-28 2.jpg',
-      '/images/gallery/commercial-benonie/PHOTO-2026-03-30-20-38-28 3.jpg',
-      '/images/gallery/commercial-benonie/PHOTO-2026-03-30-20-38-28.jpg'
+      '/images/gallery/commercial-benonie/photo-2026-03-30-20-38-27-2.jpg',
+      '/images/gallery/commercial-benonie/photo-2026-03-30-20-38-27.jpg',
+      '/images/gallery/commercial-benonie/photo-2026-03-30-20-38-28-2.jpg',
+      '/images/gallery/commercial-benonie/photo-2026-03-30-20-38-28-3.jpg',
+      '/images/gallery/commercial-benonie/photo-2026-03-30-20-38-28.jpg'
     ],
     location: 'Benoni, GP',
   },
@@ -238,13 +238,13 @@ const projects = [
     category: 'Commercial',
     title: 'Solar Commercial Installation',
     caption: 'Large-scale commercial rooftop solar installation delivering sustained energy cost savings.',
-    image: '/images/gallery/solar-commercial/PHOTO-2026-03-30-21-09-09.jpg',
+    image: '/images/gallery/solar-commercial/photo-2026-03-30-21-09-09.jpg',
     images: [
-      '/images/gallery/solar-commercial/PHOTO-2026-03-30-21-09-09.jpg',
-      '/images/gallery/solar-commercial/PHOTO-2026-03-30-21-09-10 2.jpg',
-      '/images/gallery/solar-commercial/PHOTO-2026-03-30-21-09-10.jpg',
-      '/images/gallery/solar-commercial/PHOTO-2026-03-30-21-09-11 2.jpg',
-      '/images/gallery/solar-commercial/PHOTO-2026-03-30-21-09-11.jpg'
+      '/images/gallery/solar-commercial/photo-2026-03-30-21-09-09.jpg',
+      '/images/gallery/solar-commercial/photo-2026-03-30-21-09-10-2.jpg',
+      '/images/gallery/solar-commercial/photo-2026-03-30-21-09-10.jpg',
+      '/images/gallery/solar-commercial/photo-2026-03-30-21-09-11-2.jpg',
+      '/images/gallery/solar-commercial/photo-2026-03-30-21-09-11.jpg'
     ],
     location: 'Johannesburg, GP',
   },
@@ -254,10 +254,10 @@ const projects = [
     category: 'EV Charging',
     title: 'Morningside BYD',
     caption: 'High-performance BYD EV charging integration at a premium Morningside residence.',
-    image: '/images/gallery/ev-morningside-byd/PHOTO-2026-03-30-20-46-07.jpg',
+    image: '/images/gallery/ev-morningside-byd/photo-2026-03-30-20-46-07.jpg',
     images: [
-      '/images/gallery/ev-morningside-byd/PHOTO-2026-03-30-20-46-07.jpg',
-      '/images/gallery/ev-morningside-byd/PHOTO-2026-03-30-20-46-10.jpg'
+      '/images/gallery/ev-morningside-byd/photo-2026-03-30-20-46-07.jpg',
+      '/images/gallery/ev-morningside-byd/photo-2026-03-30-20-46-10.jpg'
     ],
     location: 'Morningside, GP',
     type: 'video',
@@ -268,11 +268,11 @@ const projects = [
     category: 'EV Charging',
     title: 'BYD Electric Vehicle',
     caption: 'BYD EV charging solution with smart energy management and rapid charge capabilities.',
-    image: '/images/gallery/ev-electric-vehicle-byd/PHOTO-2026-03-30-20-40-19 2.jpg',
+    image: '/images/gallery/ev-electric-vehicle-byd/photo-2026-03-30-20-40-19-2.jpg',
     images: [
-      '/images/gallery/ev-electric-vehicle-byd/PHOTO-2026-03-30-20-40-19 2.jpg',
-      '/images/gallery/ev-electric-vehicle-byd/PHOTO-2026-03-30-20-40-19 3.jpg',
-      '/images/gallery/ev-electric-vehicle-byd/PHOTO-2026-03-30-20-40-19.jpg'
+      '/images/gallery/ev-electric-vehicle-byd/photo-2026-03-30-20-40-19-2.jpg',
+      '/images/gallery/ev-electric-vehicle-byd/photo-2026-03-30-20-40-19-3.jpg',
+      '/images/gallery/ev-electric-vehicle-byd/photo-2026-03-30-20-40-19.jpg'
     ],
     location: 'Johannesburg, GP',
   },
@@ -281,12 +281,12 @@ const projects = [
     category: 'EV Charging',
     title: 'BYD Seal Lion 7',
     caption: 'Flagship BYD Seal Lion 7 charging infrastructure with high-fidelity telemetry monitoring.',
-    image: '/images/gallery/ev-byd-sealion-7/PHOTO-2026-03-30-20-41-41 2.jpg',
+    image: '/images/gallery/ev-byd-sealion-7/photo-2026-03-30-20-41-41-2.jpg',
     images: [
-      '/images/gallery/ev-byd-sealion-7/PHOTO-2026-03-30-20-41-41 2.jpg',
-      '/images/gallery/ev-byd-sealion-7/PHOTO-2026-03-30-20-41-41.jpg',
-      '/images/gallery/ev-byd-sealion-7/PHOTO-2026-03-30-20-41-42 2.jpg',
-      '/images/gallery/ev-byd-sealion-7/PHOTO-2026-03-30-20-41-42.jpg'
+      '/images/gallery/ev-byd-sealion-7/photo-2026-03-30-20-41-41-2.jpg',
+      '/images/gallery/ev-byd-sealion-7/photo-2026-03-30-20-41-41.jpg',
+      '/images/gallery/ev-byd-sealion-7/photo-2026-03-30-20-41-42-2.jpg',
+      '/images/gallery/ev-byd-sealion-7/photo-2026-03-30-20-41-42.jpg'
     ],
     location: 'Sandton, GP',
   },
@@ -295,11 +295,11 @@ const projects = [
     category: 'EV Charging',
     title: 'MG Centurion',
     caption: 'Premium MG EV charging station with smart-current management seamlessly integrated into the home energy system.',
-    image: '/images/gallery/ev-mg-centurion/PHOTO-2026-03-30-20-43-25 2.jpg',
+    image: '/images/gallery/ev-mg-centurion/photo-2026-03-30-20-43-25-2.jpg',
     images: [
-      '/images/gallery/ev-mg-centurion/PHOTO-2026-03-30-20-43-25 2.jpg',
-      '/images/gallery/ev-mg-centurion/PHOTO-2026-03-30-20-43-25 3.jpg',
-      '/images/gallery/ev-mg-centurion/PHOTO-2026-03-30-20-43-25.jpg'
+      '/images/gallery/ev-mg-centurion/photo-2026-03-30-20-43-25-2.jpg',
+      '/images/gallery/ev-mg-centurion/photo-2026-03-30-20-43-25-3.jpg',
+      '/images/gallery/ev-mg-centurion/photo-2026-03-30-20-43-25.jpg'
     ],
     location: 'Centurion, GP',
   },
@@ -308,13 +308,13 @@ const projects = [
     category: 'EV Charging',
     title: 'BYD Seal Lion 6 — Edenvale',
     caption: 'Smart charging solution for the BYD Seal Lion 6, perfectly integrated for urban home energy systems.',
-    image: '/images/gallery/ev-byd-sealion-6-edenvale/PHOTO-2026-03-30-20-46-58.jpg',
+    image: '/images/gallery/ev-byd-sealion-6-edenvale/photo-2026-03-30-20-46-58.jpg',
     images: [
-      '/images/gallery/ev-byd-sealion-6-edenvale/PHOTO-2026-03-30-20-46-58.jpg',
-      '/images/gallery/ev-byd-sealion-6-edenvale/PHOTO-2026-03-30-20-46-59 2.jpg',
-      '/images/gallery/ev-byd-sealion-6-edenvale/PHOTO-2026-03-30-20-46-59 3.jpg',
-      '/images/gallery/ev-byd-sealion-6-edenvale/PHOTO-2026-03-30-20-46-59.jpg',
-      '/images/gallery/ev-byd-sealion-6-edenvale/PHOTO-2026-03-30-20-47-00.jpg'
+      '/images/gallery/ev-byd-sealion-6-edenvale/photo-2026-03-30-20-46-58.jpg',
+      '/images/gallery/ev-byd-sealion-6-edenvale/photo-2026-03-30-20-46-59-2.jpg',
+      '/images/gallery/ev-byd-sealion-6-edenvale/photo-2026-03-30-20-46-59-3.jpg',
+      '/images/gallery/ev-byd-sealion-6-edenvale/photo-2026-03-30-20-46-59.jpg',
+      '/images/gallery/ev-byd-sealion-6-edenvale/photo-2026-03-30-20-47-00.jpg'
     ],
     location: 'Edenvale, GP',
   },
@@ -323,16 +323,16 @@ const projects = [
     category: 'EV Charging',
     title: 'Chery Sandton',
     caption: 'Advanced Chery EV charging interface providing reliable power delivery for a high-end Sandton property.',
-    image: '/images/gallery/ev-chery-sandton/PHOTO-2026-03-30-20-55-49.jpg',
+    image: '/images/gallery/ev-chery-sandton/photo-2026-03-30-20-55-49.jpg',
     images: [
-      '/images/gallery/ev-chery-sandton/PHOTO-2026-03-30-20-55-49.jpg',
-      '/images/gallery/ev-chery-sandton/PHOTO-2026-03-30-20-55-50 2.jpg',
-      '/images/gallery/ev-chery-sandton/PHOTO-2026-03-30-20-55-50.jpg',
-      '/images/gallery/ev-chery-sandton/PHOTO-2026-03-30-20-55-51 2.jpg',
-      '/images/gallery/ev-chery-sandton/PHOTO-2026-03-30-20-55-51 3.jpg',
-      '/images/gallery/ev-chery-sandton/PHOTO-2026-03-30-20-55-51.jpg',
-      '/images/gallery/ev-chery-sandton/PHOTO-2026-03-30-20-55-52 2.jpg',
-      '/images/gallery/ev-chery-sandton/PHOTO-2026-03-30-20-55-52.jpg'
+      '/images/gallery/ev-chery-sandton/photo-2026-03-30-20-55-49.jpg',
+      '/images/gallery/ev-chery-sandton/photo-2026-03-30-20-55-50-2.jpg',
+      '/images/gallery/ev-chery-sandton/photo-2026-03-30-20-55-50.jpg',
+      '/images/gallery/ev-chery-sandton/photo-2026-03-30-20-55-51-2.jpg',
+      '/images/gallery/ev-chery-sandton/photo-2026-03-30-20-55-51-3.jpg',
+      '/images/gallery/ev-chery-sandton/photo-2026-03-30-20-55-51.jpg',
+      '/images/gallery/ev-chery-sandton/photo-2026-03-30-20-55-52-2.jpg',
+      '/images/gallery/ev-chery-sandton/photo-2026-03-30-20-55-52.jpg'
     ],
     location: 'Sandton, GP',
   },
@@ -341,12 +341,12 @@ const projects = [
     category: 'EV Charging',
     title: 'Randburg Chery',
     caption: 'Customized Chery EV charging installation optimized for peak efficiency and home system integration.',
-    image: '/images/gallery/ev-charger-chery-randburg/PHOTO-2026-03-30-20-49-28.jpg',
+    image: '/images/gallery/ev-charger-chery-randburg/photo-2026-03-30-20-49-28.jpg',
     images: [
-      '/images/gallery/ev-charger-chery-randburg/PHOTO-2026-03-30-20-49-28.jpg',
-      '/images/gallery/ev-charger-chery-randburg/PHOTO-2026-03-30-20-49-29.jpg',
-      '/images/gallery/ev-charger-chery-randburg/PHOTO-2026-03-30-20-49-30 2.jpg',
-      '/images/gallery/ev-charger-chery-randburg/PHOTO-2026-03-30-20-49-30.jpg'
+      '/images/gallery/ev-charger-chery-randburg/photo-2026-03-30-20-49-28.jpg',
+      '/images/gallery/ev-charger-chery-randburg/photo-2026-03-30-20-49-29.jpg',
+      '/images/gallery/ev-charger-chery-randburg/photo-2026-03-30-20-49-30-2.jpg',
+      '/images/gallery/ev-charger-chery-randburg/photo-2026-03-30-20-49-30.jpg'
     ],
     location: 'Randburg, GP',
   },
@@ -355,11 +355,11 @@ const projects = [
     category: 'EV Charging',
     title: 'Bryanston Jaecoo',
     caption: 'Sleek Jaecoo high-speed charger installation featuring an aesthetically integrated wall-mount.',
-    image: '/images/gallery/ev-bryanston-jaecoo/PHOTO-2026-03-30-20-59-48.jpg',
+    image: '/images/gallery/ev-bryanston-jaecoo/photo-2026-03-30-20-59-48.jpg',
     images: [
-      '/images/gallery/ev-bryanston-jaecoo/PHOTO-2026-03-30-20-59-48.jpg',
-      '/images/gallery/ev-bryanston-jaecoo/PHOTO-2026-03-30-20-59-49 2.jpg',
-      '/images/gallery/ev-bryanston-jaecoo/PHOTO-2026-03-30-20-59-49.jpg'
+      '/images/gallery/ev-bryanston-jaecoo/photo-2026-03-30-20-59-48.jpg',
+      '/images/gallery/ev-bryanston-jaecoo/photo-2026-03-30-20-59-49-2.jpg',
+      '/images/gallery/ev-bryanston-jaecoo/photo-2026-03-30-20-59-49.jpg'
     ],
     location: 'Bryanston, GP',
   },
@@ -368,11 +368,11 @@ const projects = [
     category: 'EV Charging',
     title: 'Serengeti Jaecoo/Omoda',
     caption: 'Bespoke Jaecoo/Omoda charging ecosystem at the prestigious Serengeti Golf & Wildlife Estate.',
-    image: '/images/gallery/ev-jaecoo-omoda-serengeti/PHOTO-2026-03-30-21-02-56.jpg',
+    image: '/images/gallery/ev-jaecoo-omoda-serengeti/photo-2026-03-30-21-02-56.jpg',
     images: [
-      '/images/gallery/ev-jaecoo-omoda-serengeti/PHOTO-2026-03-30-21-02-56.jpg',
-      '/images/gallery/ev-jaecoo-omoda-serengeti/PHOTO-2026-03-30-21-02-57 2.jpg',
-      '/images/gallery/ev-jaecoo-omoda-serengeti/PHOTO-2026-03-30-21-02-57.jpg'
+      '/images/gallery/ev-jaecoo-omoda-serengeti/photo-2026-03-30-21-02-56.jpg',
+      '/images/gallery/ev-jaecoo-omoda-serengeti/photo-2026-03-30-21-02-57-2.jpg',
+      '/images/gallery/ev-jaecoo-omoda-serengeti/photo-2026-03-30-21-02-57.jpg'
     ],
     location: 'Serengeti, GP',
   },
@@ -381,11 +381,11 @@ const projects = [
     category: 'EV Charging',
     title: 'Benoni Omoda Hub',
     caption: 'State-of-the-art Omoda charging terminal with integrated surge protection and intelligent monitoring.',
-    image: '/images/gallery/ev-omoda-benoni/PHOTO-2026-03-30-21-07-17.jpg',
+    image: '/images/gallery/ev-omoda-benoni/photo-2026-03-30-21-07-17.jpg',
     images: [
-      '/images/gallery/ev-omoda-benoni/PHOTO-2026-03-30-21-07-17.jpg',
-      '/images/gallery/ev-omoda-benoni/PHOTO-2026-03-30-21-07-18 2.jpg',
-      '/images/gallery/ev-omoda-benoni/PHOTO-2026-03-30-21-07-18.jpg'
+      '/images/gallery/ev-omoda-benoni/photo-2026-03-30-21-07-17.jpg',
+      '/images/gallery/ev-omoda-benoni/photo-2026-03-30-21-07-18-2.jpg',
+      '/images/gallery/ev-omoda-benoni/photo-2026-03-30-21-07-18.jpg'
     ],
     location: 'Benoni, GP',
   },
@@ -394,12 +394,12 @@ const projects = [
     category: 'EV Charging',
     title: 'BYD Dolphin',
     caption: 'Smart charging solution for the BYD Dolphin, perfectly integrated for urban home energy systems.',
-    image: '/images/gallery/byd-dolphin/Dolphin 1.jpg',
+    image: '/images/gallery/byd-dolphin/dolphin-1.jpg',
     images: [
-      '/images/gallery/byd-dolphin/Dolphin 1.jpg',
-      '/images/gallery/byd-dolphin/Dolphin 2.jpg',
-      '/images/gallery/byd-dolphin/Dolphin 3.jpg',
-      '/images/gallery/byd-dolphin/Dolphin 4.jpg'
+      '/images/gallery/byd-dolphin/dolphin-1.jpg',
+      '/images/gallery/byd-dolphin/dolphin-2.jpg',
+      '/images/gallery/byd-dolphin/dolphin-3.jpg',
+      '/images/gallery/byd-dolphin/dolphin-4.jpg'
     ],
     location: 'Edenvale, GP',
   },
