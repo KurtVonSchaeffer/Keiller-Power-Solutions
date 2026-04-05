@@ -26,7 +26,7 @@ const projects = [
     category: 'Residential',
     title: 'Durban Residential',
     caption: 'Premium residential solar and battery installation delivering reliable energy independence for a Durban home.',
-    image: '/images/gallery/durban/photo-2026-03-30-20-21-41-2.jpg',
+    image: '/images/gallery/durban/photo-2026-03-30-20-21-41.jpg',
     images: [
       '/images/gallery/durban/photo-2026-03-30-20-21-41-2.jpg',
       '/images/gallery/durban/photo-2026-03-30-20-21-41.jpg',
@@ -57,7 +57,7 @@ const projects = [
     category: 'Residential',
     title: 'Lanseria Estate Hub',
     caption: 'Premium solar and battery integration for large-scale energy demands in a luxury estate environment.',
-    image: '/images/gallery/lanseria/photo-2026-03-30-20-26-35-2.jpg',
+    image: '/images/gallery/lanseria/photo-2026-03-30-20-26-35.jpg',
     images: [
       '/images/gallery/lanseria/photo-2026-03-30-20-26-35-2.jpg',
       '/images/gallery/lanseria/photo-2026-03-30-20-26-35.jpg',
@@ -84,7 +84,7 @@ const projects = [
     category: 'Residential',
     title: 'Edenvale Solar System',
     caption: 'Robust solar system installation delivering full home energy independence and load-shedding protection.',
-    image: '/images/gallery/edenvale/photo-2026-03-30-20-33-36-2.jpg',
+    image: '/images/gallery/edenvale/photo-2026-03-30-20-33-36.jpg',
     images: [
       '/images/gallery/edenvale/photo-2026-03-30-20-33-36-2.jpg',
       '/images/gallery/edenvale/photo-2026-03-30-20-33-36.jpg',
@@ -101,7 +101,7 @@ const projects = [
     category: 'Residential',
     title: 'Solar Edenvale',
     caption: 'High-efficiency solar PV system with smart monitoring for a modern Edenvale residence.',
-    image: '/images/gallery/solar-edenvale/photo-2026-03-30-20-54-41-2.jpg',
+    image: '/images/gallery/solar-edenvale/photo-2026-03-30-20-54-41.jpg',
     images: [
       '/images/gallery/solar-edenvale/photo-2026-03-30-20-54-41-2.jpg',
       '/images/gallery/solar-edenvale/photo-2026-03-30-20-54-41-3.jpg',
@@ -116,7 +116,7 @@ const projects = [
     category: 'Residential',
     title: 'Alberton Luxpower',
     caption: 'Luxpower hybrid inverter paired with lithium storage for consistent uptime during load-shedding.',
-    image: '/images/gallery/alberton/photo-2026-03-30-20-35-05-2.jpg',
+    image: '/images/gallery/alberton/photo-2026-03-30-20-35-05.jpg',
     images: [
       '/images/gallery/alberton/photo-2026-03-30-20-35-05-2.jpg',
       '/images/gallery/alberton/photo-2026-03-30-20-35-05.jpg',
@@ -162,7 +162,7 @@ const projects = [
     category: 'Battery',
     title: 'Moreleta Park 2 — Energy Storage',
     caption: 'Second-phase battery storage expansion delivering increased capacity and load-shedding resilience.',
-    image: '/images/gallery/morleta-park-2/photo-2026-03-30-20-32-31-2.jpg',
+    image: '/images/gallery/morleta-park-2/photo-2026-03-30-20-32-31.jpg',
     images: [
       '/images/gallery/morleta-park-2/photo-2026-03-30-20-32-31-2.jpg',
       '/images/gallery/morleta-park-2/photo-2026-03-30-20-32-31-3.jpg',
@@ -179,7 +179,7 @@ const projects = [
     category: 'Commercial',
     title: 'Commercial Installation 1',
     caption: 'Professional commercial solar installation delivering reliable energy and significant cost savings.',
-    image: '/images/gallery/commercial-1/photo-2026-03-30-20-27-16-2.jpg',
+    image: '/images/gallery/commercial-1/photo-2026-03-30-20-27-16.jpg',
     images: [
       '/images/gallery/commercial-1/photo-2026-03-30-20-27-16-2.jpg',
       '/images/gallery/commercial-1/photo-2026-03-30-20-27-16.jpg',
@@ -208,7 +208,7 @@ const projects = [
     category: 'Commercial',
     title: 'Sigenergy Commercial ESS',
     caption: 'Advanced Sigenergy Energy Storage System (ESS) for high-demand commercial power management.',
-    image: '/images/gallery/sinergy-comercial/photo-2026-03-30-20-36-30-2.jpg',
+    image: '/images/gallery/sinergy-comercial/photo-2026-03-30-20-36-30.jpg',
     images: [
       '/images/gallery/sinergy-comercial/photo-2026-03-30-20-36-30-2.jpg',
       '/images/gallery/sinergy-comercial/photo-2026-03-30-20-36-30-3.jpg',
@@ -223,7 +223,7 @@ const projects = [
     category: 'Commercial',
     title: 'Benoni Commercial',
     caption: 'Industrial-grade commercial solar and storage solution for a Benoni business facility.',
-    image: '/images/gallery/commercial-benonie/photo-2026-03-30-20-38-27-2.jpg',
+    image: '/images/gallery/commercial-benonie/photo-2026-03-30-20-38-27.jpg',
     images: [
       '/images/gallery/commercial-benonie/photo-2026-03-30-20-38-27-2.jpg',
       '/images/gallery/commercial-benonie/photo-2026-03-30-20-38-27.jpg',
@@ -260,15 +260,13 @@ const projects = [
       '/images/gallery/ev-morningside-byd/photo-2026-03-30-20-46-10.jpg'
     ],
     location: 'Morningside, GP',
-    type: 'video',
-    videoUrl: '/images/gallery/ev-morningside-byd/ev-morningside.mp4.mp4',
   },
   {
     id: 18,
     category: 'EV Charging',
     title: 'BYD Electric Vehicle',
     caption: 'BYD EV charging solution with smart energy management and rapid charge capabilities.',
-    image: '/images/gallery/ev-electric-vehicle-byd/photo-2026-03-30-20-40-19-2.jpg',
+    image: '/images/gallery/ev-electric-vehicle-byd/photo-2026-03-30-20-40-19.jpg',
     images: [
       '/images/gallery/ev-electric-vehicle-byd/photo-2026-03-30-20-40-19-2.jpg',
       '/images/gallery/ev-electric-vehicle-byd/photo-2026-03-30-20-40-19-3.jpg',
@@ -281,7 +279,7 @@ const projects = [
     category: 'EV Charging',
     title: 'BYD Seal Lion 7',
     caption: 'Flagship BYD Seal Lion 7 charging infrastructure with high-fidelity telemetry monitoring.',
-    image: '/images/gallery/ev-byd-sealion-7/photo-2026-03-30-20-41-41-2.jpg',
+    image: '/images/gallery/ev-byd-sealion-7/photo-2026-03-30-20-41-41.jpg',
     images: [
       '/images/gallery/ev-byd-sealion-7/photo-2026-03-30-20-41-41-2.jpg',
       '/images/gallery/ev-byd-sealion-7/photo-2026-03-30-20-41-41.jpg',
@@ -295,7 +293,7 @@ const projects = [
     category: 'EV Charging',
     title: 'MG Centurion',
     caption: 'Premium MG EV charging station with smart-current management seamlessly integrated into the home energy system.',
-    image: '/images/gallery/ev-mg-centurion/photo-2026-03-30-20-43-25-2.jpg',
+    image: '/images/gallery/ev-mg-centurion/photo-2026-03-30-20-43-25.jpg',
     images: [
       '/images/gallery/ev-mg-centurion/photo-2026-03-30-20-43-25-2.jpg',
       '/images/gallery/ev-mg-centurion/photo-2026-03-30-20-43-25-3.jpg',
@@ -405,7 +403,7 @@ const projects = [
   },
 ];
 
-const categories = ['All', 'Residential', 'EV Charging', 'Commercial', 'Battery'];
+const categories = ['All', 'Residential', 'Battery', 'Commercial', 'EV Charging'];
 
 // ─── LIGHTBOX ────────────────────────────────────────────────────────────────
 function Lightbox({ project, onClose }) {
@@ -435,7 +433,7 @@ function Lightbox({ project, onClose }) {
       <div className="lightbox__content" onClick={e => e.stopPropagation()}>
         <button className="lightbox__close" onClick={onClose} aria-label="Close">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
-            <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+            <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
           </svg>
         </button>
         <div className="lightbox__header">
@@ -448,10 +446,10 @@ function Lightbox({ project, onClose }) {
           {images.length > 1 && (
             <>
               <button className="lightbox__nav lightbox__nav--prev" onClick={prev}>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><polyline points="15 18 9 12 15 6" /></svg>
               </button>
               <button className="lightbox__nav lightbox__nav--next" onClick={next}>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><polyline points="9 18 15 12 9 6" /></svg>
               </button>
             </>
           )}
@@ -471,52 +469,25 @@ function Lightbox({ project, onClose }) {
   );
 }
 
-// ─── VIDEO MODAL ─────────────────────────────────────────────────────────────
-function VideoModal({ videoUrl, onClose }) {
-  if (!videoUrl) return null;
-  return (
-    <div className="video-modal" onClick={onClose}>
-      <div className="video-modal__content" onClick={e => e.stopPropagation()}>
-        <button className="video-modal__close" onClick={onClose}>
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
-            <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
-          </svg>
-        </button>
-        <video controls autoPlay className="video-modal__player" src={videoUrl}>
-          Your browser does not support the video tag.
-        </video>
-      </div>
-    </div>
-  );
-}
-
 // ─── PROJECT CARD ─────────────────────────────────────────────────────────────
-function ProjectCard({ project, onOpenVideo, onOpenLightbox }) {
-  const isVideo = project.type === 'video';
+function ProjectCard({ project, onOpenLightbox }) {
   const hasMultiple = project.images && project.images.length > 1;
 
   return (
-    <div 
-      className="gallery-card" 
-      role="button" 
-      tabIndex={0} 
-      onKeyDown={(e) => { if (e.key === 'Enter') isVideo ? onOpenVideo(project.videoUrl) : onOpenLightbox(project); }}
-      onClick={() => isVideo ? onOpenVideo(project.videoUrl) : onOpenLightbox(project)}
+    <div
+      className="gallery-card"
+      role="button"
+      tabIndex={0}
+      onKeyDown={(e) => { if (e.key === 'Enter') onOpenLightbox(project); }}
+      onClick={() => onOpenLightbox(project)}
     >
       <div className="gallery-card__inner">
         <div className="gallery-card__image-wrap">
           <img src={encodeURI(project.image)} alt={project.title} className="gallery-card__image" />
-          {isVideo && (
-            <div className="video-indicator">
-              <div className="video-indicator__circle">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-              </div>
-            </div>
-          )}
           {hasMultiple && (
             <div className="multi-indicator">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                <rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/>
+                <rect x="3" y="3" width="18" height="18" rx="2" /><path d="M3 9h18M9 21V9" />
               </svg>
               <span>{project.images.length}</span>
             </div>
@@ -531,7 +502,7 @@ function ProjectCard({ project, onOpenVideo, onOpenLightbox }) {
           </div>
           <div className="gallery-card__view-btn">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
-              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/>
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" />
             </svg>
           </div>
         </div>
@@ -543,7 +514,6 @@ function ProjectCard({ project, onOpenVideo, onOpenLightbox }) {
 // ─── MAIN PAGE ────────────────────────────────────────────────────────────────
 export default function Gallery() {
   const [filter, setFilter] = useState('All');
-  const [activeVideo, setActiveVideo] = useState(null);
   const [activeLightbox, setActiveLightbox] = useState(null);
 
   const filtered = filter === 'All' ? projects : projects.filter(p => p.category === filter);
@@ -571,7 +541,6 @@ export default function Gallery() {
         cta="Partner With Us" ctaTo="/contact" image="/images/hero-gallery.jpg" />
 
       {activeLightbox && <Lightbox project={activeLightbox} onClose={() => setActiveLightbox(null)} />}
-      <VideoModal videoUrl={activeVideo} onClose={() => setActiveVideo(null)} />
 
       <section className="section section--navy" style={{ position: 'relative', overflow: 'hidden' }}>
         <div className="container" style={{ position: 'relative', zIndex: 1 }}>
@@ -592,7 +561,7 @@ export default function Gallery() {
           </div>
           <div className="grid-3 animate-grid">
             {filtered.map(p => (
-              <ProjectCard key={p.id} project={p} onOpenVideo={setActiveVideo} onOpenLightbox={setActiveLightbox} />
+              <ProjectCard key={p.id} project={p} onOpenLightbox={setActiveLightbox} />
             ))}
           </div>
         </div>
@@ -620,11 +589,6 @@ export default function Gallery() {
         .lightbox__thumb--active{border-color:var(--blue)}
         .lightbox__caption{font-size:.95rem;color:rgba(255,255,255,.6);text-align:center;max-width:680px;line-height:1.6;margin:0}
         .multi-indicator{position:absolute;top:14px;right:14px;background:rgba(26,86,219,.85);backdrop-filter:blur(8px);color:#fff;border-radius:999px;padding:5px 10px;font-size:.72rem;font-weight:700;display:flex;align-items:center;gap:5px;z-index:5;border:1px solid rgba(255,255,255,.25)}
-        .video-modal{position:fixed;inset:0;background:rgba(8,13,26,.95);backdrop-filter:blur(16px);z-index:10000;display:flex;align-items:center;justify-content:center;padding:40px}
-        .video-modal__content{position:relative;width:100%;max-width:1200px;aspect-ratio:16/9;background:#000;border-radius:24px;overflow:hidden;box-shadow:0 40px 100px rgba(0,0,0,.8)}
-        .video-modal__player{width:100%;height:100%;border:none}
-        .video-modal__close{position:absolute;top:24px;right:24px;width:48px;height:48px;background:var(--blue);border:none;border-radius:50%;color:white;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:10001;transition:all .3s}
-        .video-modal__close:hover{transform:scale(1.1) rotate(90deg)}
         .filter-bar{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:60px;justify-content:center}
         .filter-btn{padding:10px 24px;border-radius:999px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.03);color:var(--grey-light);font-weight:600;font-size:.9rem;cursor:pointer;transition:all .3s}
         .filter-btn:hover{background:rgba(255,255,255,.08);color:var(--white)}
@@ -633,8 +597,6 @@ export default function Gallery() {
         .gallery-card__inner{position:relative;width:100%;height:100%}
         .gallery-card__image-wrap{width:100%;height:100%;overflow:hidden;position:relative}
         .gallery-card__image{width:100%;height:100%;object-fit:cover;transition:transform .6s cubic-bezier(.4,0,.2,1)}
-        .video-indicator{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(8,13,26,.2);z-index:2}
-        .video-indicator__circle{width:64px;height:64px;background:var(--blue);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 30px rgba(26,86,219,.6)}
         .gallery-card__overlay{position:absolute;inset:0;padding:30px;display:flex;flex-direction:column;justify-content:flex-end;background:linear-gradient(to top,rgba(8,13,26,.95) 0%,rgba(8,13,26,.4) 40%,transparent 100%);z-index:3}
         .gallery-card__badge{position:absolute;top:20px;left:20px;padding:6px 14px;background:rgba(255,255,255,.1);backdrop-filter:blur(12px);border-radius:999px;font-size:.75rem;font-weight:700;color:var(--white);border:1px solid rgba(255,255,255,.2);text-transform:uppercase;letter-spacing:.05em}
         .gallery-card__location{font-size:.8rem;color:var(--orange-light);font-weight:700;text-transform:uppercase;letter-spacing:.1em;margin-bottom:8px;display:block}
@@ -657,11 +619,10 @@ export default function Gallery() {
         @media(max-width:768px){
           .featured-slide{height:auto;padding:40px 24px;min-height:400px}
           .gallery-card{aspect-ratio:3/4}
-          .gallery-card__caption{max-height:100px;opacity:1;margin-top:10px} /* Always show caption on mobile */
-          .gallery-card__view-btn{transform:scale(1)} /* Always show view btn on mobile */
+          .gallery-card__caption{max-height:100px;opacity:1;margin-top:10px}
+          .gallery-card__view-btn{transform:scale(1)}
           .lightbox__nav--prev{left:4px}.lightbox__nav--next{right:4px}
           .lightbox__close{top:12px;right:12px;width:40px;height:40px}
-          .video-modal{padding:10px}.video-modal__content{aspect-ratio:9/16}
         }
       `}</style>
     </div>
