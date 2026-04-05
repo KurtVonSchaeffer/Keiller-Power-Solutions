@@ -441,7 +441,7 @@ function Lightbox({ project, onClose }) {
           {images.length > 1 && <span className="lightbox__count">{idx + 1} / {images.length}</span>}
         </div>
         <div className="lightbox__img-wrap">
-          <img key={images[idx]} src={images[idx]} alt={`${project.title} — ${idx + 1}`} className="lightbox__img" />
+          <img key={images[idx]} src={encodeURI(images[idx])} alt={`${project.title} — ${idx + 1}`} className="lightbox__img" />
           {images.length > 1 && (
             <>
               <button className="lightbox__nav lightbox__nav--prev" onClick={prev}>
@@ -457,7 +457,7 @@ function Lightbox({ project, onClose }) {
           <div className="lightbox__thumbs">
             {images.map((src, i) => (
               <button key={i} className={`lightbox__thumb ${i === idx ? 'lightbox__thumb--active' : ''}`} onClick={() => setIdx(i)}>
-                <img src={src} alt={`${i + 1}`} />
+                <img src={encodeURI(src)} alt={`${i + 1}`} />
               </button>
             ))}
           </div>
@@ -496,7 +496,7 @@ function ProjectCard({ project, onOpenVideo, onOpenLightbox }) {
     <div className="gallery-card" onClick={() => isVideo ? onOpenVideo(project.videoUrl) : onOpenLightbox(project)}>
       <div className="gallery-card__inner">
         <div className="gallery-card__image-wrap">
-          <img src={project.image} alt={project.title} className="gallery-card__image"
+          <img src={encodeURI(project.image)} alt={project.title} className="gallery-card__image"
             onError={e => { e.target.src = 'https://images.unsplash.com/photo-1509391366360-fe5bb6583e2c?q=80&w=800'; }} />
           {isVideo && (
             <div className="video-indicator">
@@ -625,7 +625,6 @@ export default function Gallery() {
         .gallery-card__inner{position:relative;width:100%;height:100%}
         .gallery-card__image-wrap{width:100%;height:100%;overflow:hidden;position:relative}
         .gallery-card__image{width:100%;height:100%;object-fit:cover;transition:transform .6s cubic-bezier(.4,0,.2,1)}
-        .gallery-card:hover .gallery-card__image{transform:scale(1.1)}
         .video-indicator{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(8,13,26,.2);z-index:2}
         .video-indicator__circle{width:64px;height:64px;background:var(--blue);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 30px rgba(26,86,219,.6)}
         .gallery-card__overlay{position:absolute;inset:0;padding:30px;display:flex;flex-direction:column;justify-content:flex-end;background:linear-gradient(to top,rgba(8,13,26,.95) 0%,rgba(8,13,26,.4) 40%,transparent 100%);z-index:3}
@@ -633,10 +632,13 @@ export default function Gallery() {
         .gallery-card__location{font-size:.8rem;color:var(--orange-light);font-weight:700;text-transform:uppercase;letter-spacing:.1em;margin-bottom:8px;display:block}
         .gallery-card__title{font-size:1.4rem;font-weight:800;color:var(--white);margin-bottom:8px;line-height:1.2}
         .gallery-card__caption{font-size:.95rem;color:rgba(255,255,255,.7);line-height:1.5;max-height:0;overflow:hidden;transition:all .4s ease;opacity:0}
-        .gallery-card:hover .gallery-card__caption{max-height:100px;opacity:1;margin-top:10px}
         .gallery-card__view-btn{position:absolute;top:20px;right:20px;width:44px;height:44px;background:var(--blue);border-radius:50%;display:flex;align-items:center;justify-content:center;color:white;transform:scale(0);transition:all .4s cubic-bezier(.175,.885,.32,1.275);z-index:4}
-        .gallery-card:hover .gallery-card__view-btn{transform:scale(1)}
-        .gallery-card:hover{transform:translateY(-8px);border-color:var(--blue);box-shadow:0 20px 40px rgba(0,0,0,.4)}
+        @media (hover: hover) {
+          .gallery-card:hover .gallery-card__image{transform:scale(1.1)}
+          .gallery-card:hover .gallery-card__caption{max-height:100px;opacity:1;margin-top:10px}
+          .gallery-card:hover .gallery-card__view-btn{transform:scale(1)}
+          .gallery-card:hover{transform:translateY(-8px);border-color:var(--blue);box-shadow:0 20px 40px rgba(0,0,0,.4)}
+        }
         .featured-slide{height:600px;background-size:cover;background-position:center;display:flex;align-items:center;padding:80px;border-radius:32px;margin:0 10px}
         .featured-slide__content{max-width:600px}
         .featured-slide__meta{display:flex;gap:30px;margin-top:30px;padding-top:30px;border-top:1px solid rgba(255,255,255,.1)}
@@ -647,6 +649,8 @@ export default function Gallery() {
         @media(max-width:768px){
           .featured-slide{height:auto;padding:40px 24px;min-height:400px}
           .gallery-card{aspect-ratio:3/4}
+          .gallery-card__caption{max-height:100px;opacity:1;margin-top:10px} /* Always show caption on mobile */
+          .gallery-card__view-btn{transform:scale(1)} /* Always show view btn on mobile */
           .lightbox__nav--prev{left:4px}.lightbox__nav--next{right:4px}
           .lightbox__close{top:12px;right:12px;width:40px;height:40px}
           .video-modal{padding:10px}.video-modal__content{aspect-ratio:9/16}
