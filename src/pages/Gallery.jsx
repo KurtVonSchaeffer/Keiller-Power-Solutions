@@ -24,6 +24,51 @@ const projects = [
   {
     id: 2,
     category: 'Residential',
+    title: 'Durban Residential',
+    caption: 'Premium residential solar and battery installation delivering reliable energy independence for a Durban home.',
+    image: '/images/gallery/Durban /PHOTO-2026-03-30-20-21-41.jpg',
+    images: [
+      '/images/gallery/Durban /PHOTO-2026-03-30-20-21-41.jpg',
+      '/images/gallery/Durban /PHOTO-2026-03-30-20-21-41 2.jpg',
+      '/images/gallery/Durban /PHOTO-2026-03-30-20-21-42.jpg',
+      '/images/gallery/Durban /PHOTO-2026-03-30-20-21-43.jpg',
+      '/images/gallery/Durban /PHOTO-2026-03-30-20-21-43 2.jpg',
+    ],
+    location: 'Durban, KZN',
+  },
+  {
+    id: 3,
+    category: 'Residential',
+    title: 'Chatsworth Installation',
+    caption: 'Successful solar inverter and high-efficiency rooftop panel installation with outstanding results.',
+    image: '/images/gallery/Chatsworth/PHOTO-2026-03-30-20-23-22.jpg',
+    images: [
+      '/images/gallery/Chatsworth/PHOTO-2026-03-30-20-23-22.jpg',
+      '/images/gallery/Chatsworth/PHOTO-2026-03-30-20-23-23.jpg',
+      '/images/gallery/Chatsworth/PHOTO-2026-03-30-20-23-23 2.jpg',
+      '/images/gallery/Chatsworth/PHOTO-2026-03-30-20-23-24.jpg',
+      '/images/gallery/Chatsworth/PHOTO-2026-03-30-20-23-24 2.jpg',
+      '/images/gallery/Chatsworth/PHOTO-2026-03-30-20-23-24 3.jpg',
+    ],
+    location: 'Chatsworth, KZN',
+  },
+  {
+    id: 4,
+    category: 'Residential',
+    title: 'Lanseria Estate Hub',
+    caption: 'Premium solar and battery integration for large-scale energy demands in a luxury estate environment.',
+    image: '/images/gallery/lanseria/PHOTO-2026-03-30-20-26-35.jpg',
+    images: [
+      '/images/gallery/lanseria/PHOTO-2026-03-30-20-26-35.jpg',
+      '/images/gallery/lanseria/PHOTO-2026-03-30-20-26-35 2.jpg',
+      '/images/gallery/lanseria/PHOTO-2026-03-30-20-26-36.jpg',
+      '/images/gallery/lanseria/PHOTO-2026-03-30-20-26-36 2.jpg',
+    ],
+    location: 'Lanseria, GP',
+  },
+  {
+    id: 5,
+    category: 'Residential',
     title: 'Edenvale Huawei LUNA',
     caption: 'Premium Huawei LUNA2000 smart string battery system (15kWh) with professional DB board distribution.',
     image: '/images/gallery/Huwai Edenvale /edenvale-1.jpg',
@@ -35,9 +80,9 @@ const projects = [
     location: 'Edenvale, GP',
   },
   {
-    id: 3,
+    id: 6,
     category: 'Residential',
-    title: 'Edenvale Solar Installation',
+    title: 'Edenvale Solar System',
     caption: 'Robust solar system installation delivering full home energy independence and load-shedding protection.',
     image: '/images/gallery/Edenvale /PHOTO-2026-03-30-20-33-36.jpg',
     images: [
@@ -52,9 +97,9 @@ const projects = [
     location: 'Edenvale, GP',
   },
   {
-    id: 4,
+    id: 7,
     category: 'Residential',
-    title: 'Solar Edenvale System',
+    title: 'Solar Edenvale',
     caption: 'High-efficiency solar PV system with smart monitoring for a modern Edenvale residence.',
     image: '/images/gallery/Solar Edenvale/PHOTO-2026-03-30-20-54-41.jpg',
     images: [
@@ -67,21 +112,21 @@ const projects = [
     location: 'Edenvale, GP',
   },
   {
-    id: 5,
+    id: 8,
     category: 'Residential',
-    title: 'Lanseria Estate Hub',
-    caption: 'Premium solar and battery integration for large-scale energy demands in a luxury estate environment.',
-    image: '/images/gallery/lanseria/PHOTO-2026-03-30-20-26-35.jpg',
+    title: 'Alberton Luxpower',
+    caption: 'Luxpower hybrid inverter paired with lithium storage for consistent uptime during load-shedding.',
+    image: '/images/gallery/Alberton/PHOTO-2026-03-30-20-35-05.jpg',
     images: [
-      '/images/gallery/lanseria/PHOTO-2026-03-30-20-26-35.jpg',
-      '/images/gallery/lanseria/PHOTO-2026-03-30-20-26-35 2.jpg',
-      '/images/gallery/lanseria/PHOTO-2026-03-30-20-26-36.jpg',
-      '/images/gallery/lanseria/PHOTO-2026-03-30-20-26-36 2.jpg',
+      '/images/gallery/Alberton/PHOTO-2026-03-30-20-35-05.jpg',
+      '/images/gallery/Alberton/PHOTO-2026-03-30-20-35-05 2.jpg',
+      '/images/gallery/Alberton/PHOTO-2026-03-30-20-35-06.jpg',
+      '/images/gallery/Alberton/PHOTO-2026-03-30-20-35-06 2.jpg',
     ],
-    location: 'Lanseria, GP',
+    location: 'Alberton, GP',
   },
   {
-    id: 6,
+    id: 9,
     category: 'Residential',
     title: 'Hail Damage Restoration',
     caption: 'Professional assessment and replacement of solar panels post-hail, restoring full system output.',
@@ -98,7 +143,7 @@ const projects = [
   },
   // ── Battery ────────────────────────────────────────────────────────────────
   {
-    id: 7,
+    id: 10,
     category: 'Battery',
     title: 'Moreleta Park Battery System',
     caption: 'Custom battery storage installation providing reliable backup power for a Moreleta Park residence.',
@@ -113,7 +158,7 @@ const projects = [
     location: 'Moreleta Park, GP',
   },
   {
-    id: 8,
+    id: 11,
     category: 'Battery',
     title: 'Moreleta Park 2 — Energy Storage',
     caption: 'Second-phase battery storage expansion delivering increased capacity and load-shedding resilience.',
@@ -130,7 +175,36 @@ const projects = [
   },
   // ── Commercial ────────────────────────────────────────────────────────────
   {
-    id: 9,
+    id: 12,
+    category: 'Commercial',
+    title: 'Commercial Installation 1',
+    caption: 'Professional commercial solar installation delivering reliable energy and significant cost savings.',
+    image: '/images/gallery/Commercial 1/PHOTO-2026-03-30-20-27-16.jpg',
+    images: [
+      '/images/gallery/Commercial 1/PHOTO-2026-03-30-20-27-16.jpg',
+      '/images/gallery/Commercial 1/PHOTO-2026-03-30-20-27-16 2.jpg',
+      '/images/gallery/Commercial 1/PHOTO-2026-03-30-20-27-17.jpg',
+    ],
+    location: 'Gauteng, GP',
+  },
+  {
+    id: 13,
+    category: 'Commercial',
+    title: 'Commercial Installation 2',
+    caption: 'Large-scale commercial energy system providing sustained grid independence and load-shedding protection.',
+    image: '/images/gallery/Commercial 2/PHOTO-2026-03-30-20-31-32.jpg',
+    images: [
+      '/images/gallery/Commercial 2/PHOTO-2026-03-30-20-31-32.jpg',
+      '/images/gallery/Commercial 2/PHOTO-2026-03-30-20-31-33.jpg',
+      '/images/gallery/Commercial 2/PHOTO-2026-03-30-20-31-33 2.jpg',
+      '/images/gallery/Commercial 2/PHOTO-2026-03-30-20-31-35.jpg',
+      '/images/gallery/Commercial 2/PHOTO-2026-03-30-20-31-35 2.jpg',
+      '/images/gallery/Commercial 2/PHOTO-2026-03-30-20-31-36.jpg',
+    ],
+    location: 'Gauteng, GP',
+  },
+  {
+    id: 14,
     category: 'Commercial',
     title: 'Sigenergy Commercial ESS',
     caption: 'Advanced Sigenergy Energy Storage System (ESS) for high-demand commercial power management.',
@@ -145,10 +219,25 @@ const projects = [
     location: 'Johannesburg, GP',
   },
   {
-    id: 10,
+    id: 15,
+    category: 'Commercial',
+    title: 'Benoni Commercial',
+    caption: 'Industrial-grade commercial solar and storage solution for a Benoni business facility.',
+    image: '/images/gallery/Commercial Benonie /PHOTO-2026-03-30-20-38-27.jpg',
+    images: [
+      '/images/gallery/Commercial Benonie /PHOTO-2026-03-30-20-38-27.jpg',
+      '/images/gallery/Commercial Benonie /PHOTO-2026-03-30-20-38-27 2.jpg',
+      '/images/gallery/Commercial Benonie /PHOTO-2026-03-30-20-38-28.jpg',
+      '/images/gallery/Commercial Benonie /PHOTO-2026-03-30-20-38-28 2.jpg',
+      '/images/gallery/Commercial Benonie /PHOTO-2026-03-30-20-38-28 3.jpg',
+    ],
+    location: 'Benoni, GP',
+  },
+  {
+    id: 16,
     category: 'Commercial',
     title: 'Solar Commercial Installation',
-    caption: 'Large-scale commercial solar installation delivering sustained energy cost savings and grid independence.',
+    caption: 'Large-scale commercial rooftop solar installation delivering sustained energy cost savings.',
     image: '/images/gallery/Solar commercial/PHOTO-2026-03-30-21-09-09.jpg',
     images: [
       '/images/gallery/Solar commercial/PHOTO-2026-03-30-21-09-09.jpg',
@@ -161,7 +250,7 @@ const projects = [
   },
   // ── EV Charging ──────────────────────────────────────────────────────────
   {
-    id: 11,
+    id: 17,
     category: 'EV Charging',
     title: 'Morningside BYD',
     caption: 'High-performance BYD EV charging integration at a premium Morningside residence.',
@@ -175,15 +264,120 @@ const projects = [
     videoUrl: '/images/gallery/EV Morningside BYD/ev-morningside.mp4.mp4',
   },
   {
-    id: 12,
+    id: 18,
+    category: 'EV Charging',
+    title: 'BYD Electric Vehicle',
+    caption: 'BYD EV charging solution with smart energy management and rapid charge capabilities.',
+    image: '/images/gallery/EV (electric vehicle) BYD/PHOTO-2026-03-30-20-40-19.jpg',
+    images: [
+      '/images/gallery/EV (electric vehicle) BYD/PHOTO-2026-03-30-20-40-19.jpg',
+      '/images/gallery/EV (electric vehicle) BYD/PHOTO-2026-03-30-20-40-19 2.jpg',
+      '/images/gallery/EV (electric vehicle) BYD/PHOTO-2026-03-30-20-40-19 3.jpg',
+    ],
+    location: 'Johannesburg, GP',
+  },
+  {
+    id: 19,
+    category: 'EV Charging',
+    title: 'BYD Seal Lion 7',
+    caption: 'Flagship BYD Seal Lion 7 charging infrastructure with high-fidelity telemetry monitoring.',
+    image: '/images/gallery/EV BYD Sealion 7/PHOTO-2026-03-30-20-41-41.jpg',
+    images: [
+      '/images/gallery/EV BYD Sealion 7/PHOTO-2026-03-30-20-41-41.jpg',
+      '/images/gallery/EV BYD Sealion 7/PHOTO-2026-03-30-20-41-41 2.jpg',
+      '/images/gallery/EV BYD Sealion 7/PHOTO-2026-03-30-20-41-42.jpg',
+      '/images/gallery/EV BYD Sealion 7/PHOTO-2026-03-30-20-41-42 2.jpg',
+    ],
+    location: 'Sandton, GP',
+  },
+  {
+    id: 20,
+    category: 'EV Charging',
+    title: 'MG Centurion',
+    caption: 'Premium MG EV charging station with smart-current management seamlessly integrated into the home energy system.',
+    image: '/images/gallery/EV - MG Centurion/PHOTO-2026-03-30-20-43-25.jpg',
+    images: [
+      '/images/gallery/EV - MG Centurion/PHOTO-2026-03-30-20-43-25.jpg',
+      '/images/gallery/EV - MG Centurion/PHOTO-2026-03-30-20-43-25 2.jpg',
+      '/images/gallery/EV - MG Centurion/PHOTO-2026-03-30-20-43-25 3.jpg',
+    ],
+    location: 'Centurion, GP',
+  },
+  {
+    id: 21,
+    category: 'EV Charging',
+    title: 'BYD Seal Lion 6 — Edenvale',
+    caption: 'Smart charging solution for the BYD Seal Lion 6, perfectly integrated for urban home energy systems.',
+    image: '/images/gallery/EV BYD Sealion 6 Edenvale/PHOTO-2026-03-30-20-46-58.jpg',
+    images: [
+      '/images/gallery/EV BYD Sealion 6 Edenvale/PHOTO-2026-03-30-20-46-58.jpg',
+      '/images/gallery/EV BYD Sealion 6 Edenvale/PHOTO-2026-03-30-20-46-59.jpg',
+      '/images/gallery/EV BYD Sealion 6 Edenvale/PHOTO-2026-03-30-20-46-59 2.jpg',
+      '/images/gallery/EV BYD Sealion 6 Edenvale/PHOTO-2026-03-30-20-46-59 3.jpg',
+      '/images/gallery/EV BYD Sealion 6 Edenvale/PHOTO-2026-03-30-20-47-00.jpg',
+    ],
+    location: 'Edenvale, GP',
+  },
+  {
+    id: 22,
+    category: 'EV Charging',
+    title: 'Chery Sandton',
+    caption: 'Advanced Chery EV charging interface providing reliable power delivery for a high-end Sandton property.',
+    image: '/images/gallery/EV Chery Sandton/PHOTO-2026-03-30-20-55-49.jpg',
+    images: [
+      '/images/gallery/EV Chery Sandton/PHOTO-2026-03-30-20-55-49.jpg',
+      '/images/gallery/EV Chery Sandton/PHOTO-2026-03-30-20-55-50.jpg',
+      '/images/gallery/EV Chery Sandton/PHOTO-2026-03-30-20-55-50 2.jpg',
+      '/images/gallery/EV Chery Sandton/PHOTO-2026-03-30-20-55-51.jpg',
+      '/images/gallery/EV Chery Sandton/PHOTO-2026-03-30-20-55-51 2.jpg',
+      '/images/gallery/EV Chery Sandton/PHOTO-2026-03-30-20-55-51 3.jpg',
+      '/images/gallery/EV Chery Sandton/PHOTO-2026-03-30-20-55-52.jpg',
+      '/images/gallery/EV Chery Sandton/PHOTO-2026-03-30-20-55-52 2.jpg',
+    ],
+    location: 'Sandton, GP',
+  },
+  {
+    id: 23,
+    category: 'EV Charging',
+    title: 'Randburg Chery',
+    caption: 'Customized Chery EV charging installation optimized for peak efficiency and home system integration.',
+    image: '/images/gallery/EV charger Chery Randburg/PHOTO-2026-03-30-20-49-28.jpg',
+    images: [
+      '/images/gallery/EV charger Chery Randburg/PHOTO-2026-03-30-20-49-28.jpg',
+      '/images/gallery/EV charger Chery Randburg/PHOTO-2026-03-30-20-49-29.jpg',
+      '/images/gallery/EV charger Chery Randburg/PHOTO-2026-03-30-20-49-30.jpg',
+      '/images/gallery/EV charger Chery Randburg/PHOTO-2026-03-30-20-49-30 2.jpg',
+    ],
+    location: 'Randburg, GP',
+  },
+  {
+    id: 24,
+    category: 'EV Charging',
+    title: 'Bryanston Jaecoo',
+    caption: 'Sleek Jaecoo high-speed charger installation featuring an aesthetically integrated wall-mount.',
+    image: '/images/gallery/EV Bryanston Jaecoo/PHOTO-2026-03-30-20-59-48.jpg',
+    images: [
+      '/images/gallery/EV Bryanston Jaecoo/PHOTO-2026-03-30-20-59-48.jpg',
+      '/images/gallery/EV Bryanston Jaecoo/PHOTO-2026-03-30-20-59-49.jpg',
+      '/images/gallery/EV Bryanston Jaecoo/PHOTO-2026-03-30-20-59-49 2.jpg',
+    ],
+    location: 'Bryanston, GP',
+  },
+  {
+    id: 25,
     category: 'EV Charging',
     title: 'Serengeti Jaecoo/Omoda',
     caption: 'Bespoke Jaecoo/Omoda charging ecosystem at the prestigious Serengeti Golf & Wildlife Estate.',
-    image: '/images/gallery/EV Jaecoo Omoda Serengeti/PHOTO-2026-03-30-21-02-57.jpg',
+    image: '/images/gallery/EV Jaecoo Omoda Serengeti/PHOTO-2026-03-30-21-02-56.jpg',
+    images: [
+      '/images/gallery/EV Jaecoo Omoda Serengeti/PHOTO-2026-03-30-21-02-56.jpg',
+      '/images/gallery/EV Jaecoo Omoda Serengeti/PHOTO-2026-03-30-21-02-57.jpg',
+      '/images/gallery/EV Jaecoo Omoda Serengeti/PHOTO-2026-03-30-21-02-57 2.jpg',
+    ],
     location: 'Serengeti, GP',
   },
   {
-    id: 13,
+    id: 26,
     category: 'EV Charging',
     title: 'Benoni Omoda Hub',
     caption: 'State-of-the-art Omoda charging terminal with integrated surge protection and intelligent monitoring.',
@@ -196,18 +390,15 @@ const projects = [
     location: 'Benoni, GP',
   },
   {
-    id: 14,
+    id: 27,
     category: 'EV Charging',
-    title: 'Randburg Chery Charging',
-    caption: 'Customized Chery EV charging installation optimized for peak efficiency and home system integration.',
-    image: '/images/gallery/EV charger Chery Randburg/PHOTO-2026-03-30-20-49-28.jpg',
+    title: 'BYD Dolphin',
+    caption: 'Smart charging solution for the BYD Dolphin, perfectly integrated for urban home energy systems.',
+    image: '/images/gallery/BYD Dolphin/PHOTO-2026-03-30-20-40-19.jpg',
     images: [
-      '/images/gallery/EV charger Chery Randburg/PHOTO-2026-03-30-20-49-28.jpg',
-      '/images/gallery/EV charger Chery Randburg/PHOTO-2026-03-30-20-49-29.jpg',
-      '/images/gallery/EV charger Chery Randburg/PHOTO-2026-03-30-20-49-30.jpg',
-      '/images/gallery/EV charger Chery Randburg/PHOTO-2026-03-30-20-49-30 2.jpg',
+      '/images/gallery/BYD Dolphin/PHOTO-2026-03-30-20-40-19.jpg',
     ],
-    location: 'Randburg, GP',
+    location: 'Edenvale, GP',
   },
 ];
 
@@ -400,65 +591,65 @@ export default function Gallery() {
       </section>
 
       <style>{`
-        .lightbox { position:fixed;inset:0;background:rgba(5,8,18,0.97);backdrop-filter:blur(20px);z-index:10000;display:flex;align-items:center;justify-content:center;padding:20px;animation:fadeIn .3s ease; }
-        .lightbox__content { position:relative;width:100%;max-width:1000px;display:flex;flex-direction:column;align-items:center;gap:16px;max-height:95vh;overflow-y:auto; }
-        .lightbox__close { position:fixed;top:24px;right:24px;width:48px;height:48px;background:var(--blue);border:none;border-radius:50%;color:white;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:10001;transition:all .3s; }
-        .lightbox__close:hover { transform:scale(1.1) rotate(90deg); }
-        .lightbox__header { width:100%;text-align:center; }
-        .lightbox__location { font-size:.75rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--orange);display:block;margin-bottom:6px; }
-        .lightbox__title { font-size:1.6rem;font-weight:800;color:#fff;margin:0; }
-        .lightbox__count { font-size:.8rem;color:rgba(255,255,255,.5);margin-top:6px;display:inline-block; }
-        .lightbox__img-wrap { position:relative;width:100%;border-radius:20px;overflow:hidden;max-height:65vh;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.04); }
-        .lightbox__img { width:100%;max-height:65vh;object-fit:contain;display:block;animation:imgFade .3s ease; }
-        @keyframes imgFade { from{opacity:0;transform:scale(.97)} to{opacity:1;transform:scale(1)} }
-        .lightbox__nav { position:absolute;top:50%;transform:translateY(-50%);width:52px;height:52px;border-radius:50%;background:rgba(11,14,26,.8);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.15);color:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .2s;z-index:2; }
-        .lightbox__nav:hover { background:var(--blue); }
-        .lightbox__nav--prev { left:12px; }
-        .lightbox__nav--next { right:12px; }
-        .lightbox__thumbs { display:flex;gap:10px;justify-content:center;flex-wrap:wrap; }
-        .lightbox__thumb { width:72px;height:56px;border-radius:10px;overflow:hidden;border:2px solid rgba(255,255,255,.1);cursor:pointer;transition:all .2s;padding:0;background:rgba(255,255,255,.05); }
-        .lightbox__thumb img { width:100%;height:100%;object-fit:cover;display:block; }
-        .lightbox__thumb--active { border-color:var(--blue); }
-        .lightbox__caption { font-size:.95rem;color:rgba(255,255,255,.6);text-align:center;max-width:680px;line-height:1.6;margin:0; }
-        .multi-indicator { position:absolute;top:14px;right:14px;background:rgba(26,86,219,.85);backdrop-filter:blur(8px);color:#fff;border-radius:999px;padding:5px 10px;font-size:.72rem;font-weight:700;display:flex;align-items:center;gap:5px;z-index:5;border:1px solid rgba(255,255,255,.25); }
-        .video-modal { position:fixed;inset:0;background:rgba(8,13,26,.95);backdrop-filter:blur(16px);z-index:10000;display:flex;align-items:center;justify-content:center;padding:40px; }
-        .video-modal__content { position:relative;width:100%;max-width:1200px;aspect-ratio:16/9;background:#000;border-radius:24px;overflow:hidden;box-shadow:0 40px 100px rgba(0,0,0,.8); }
-        .video-modal__player { width:100%;height:100%;border:none; }
-        .video-modal__close { position:absolute;top:24px;right:24px;width:48px;height:48px;background:var(--blue);border:none;border-radius:50%;color:white;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:10001;transition:all .3s; }
-        .video-modal__close:hover { transform:scale(1.1) rotate(90deg); }
-        .filter-bar { display:flex;gap:12px;flex-wrap:wrap;margin-bottom:60px;justify-content:center; }
-        .filter-btn { padding:10px 24px;border-radius:999px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.03);color:var(--grey-light);font-weight:600;font-size:.9rem;cursor:pointer;transition:all .3s; }
-        .filter-btn:hover { background:rgba(255,255,255,.08);color:var(--white); }
-        .filter-btn--active { background:var(--blue)!important;color:var(--white)!important;border-color:var(--blue)!important;box-shadow:0 4px 20px rgba(26,86,219,.4); }
-        .gallery-card { position:relative;border-radius:24px;overflow:hidden;background:var(--navy-card);border:1px solid rgba(255,255,255,.08);aspect-ratio:4/5;cursor:pointer;transition:var(--transition); }
-        .gallery-card__inner { position:relative;width:100%;height:100%; }
-        .gallery-card__image-wrap { width:100%;height:100%;overflow:hidden;position:relative; }
-        .gallery-card__image { width:100%;height:100%;object-fit:cover;transition:transform .6s cubic-bezier(.4,0,.2,1); }
-        .gallery-card:hover .gallery-card__image { transform:scale(1.1); }
-        .video-indicator { position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(8,13,26,.2);z-index:2; }
-        .video-indicator__circle { width:64px;height:64px;background:var(--blue);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 30px rgba(26,86,219,.6); }
-        .gallery-card__overlay { position:absolute;inset:0;padding:30px;display:flex;flex-direction:column;justify-content:flex-end;background:linear-gradient(to top,rgba(8,13,26,.95) 0%,rgba(8,13,26,.4) 40%,transparent 100%);z-index:3; }
-        .gallery-card__badge { position:absolute;top:20px;left:20px;padding:6px 14px;background:rgba(255,255,255,.1);backdrop-filter:blur(12px);border-radius:999px;font-size:.75rem;font-weight:700;color:var(--white);border:1px solid rgba(255,255,255,.2);text-transform:uppercase;letter-spacing:.05em; }
-        .gallery-card__location { font-size:.8rem;color:var(--orange-light);font-weight:700;text-transform:uppercase;letter-spacing:.1em;margin-bottom:8px;display:block; }
-        .gallery-card__title { font-size:1.4rem;font-weight:800;color:var(--white);margin-bottom:8px;line-height:1.2; }
-        .gallery-card__caption { font-size:.95rem;color:rgba(255,255,255,.7);line-height:1.5;max-height:0;overflow:hidden;transition:all .4s ease;opacity:0; }
-        .gallery-card:hover .gallery-card__caption { max-height:100px;opacity:1;margin-top:10px; }
-        .gallery-card__view-btn { position:absolute;top:20px;right:20px;width:44px;height:44px;background:var(--blue);border-radius:50%;display:flex;align-items:center;justify-content:center;color:white;transform:scale(0);transition:all .4s cubic-bezier(.175,.885,.32,1.275);z-index:4; }
-        .gallery-card:hover .gallery-card__view-btn { transform:scale(1); }
-        .gallery-card:hover { transform:translateY(-8px);border-color:var(--blue);box-shadow:0 20px 40px rgba(0,0,0,.4); }
-        .featured-slide { height:600px;background-size:cover;background-position:center;display:flex;align-items:center;padding:80px;border-radius:32px;margin:0 10px; }
-        .featured-slide__content { max-width:600px; }
-        .featured-slide__meta { display:flex;gap:30px;margin-top:30px;padding-top:30px;border-top:1px solid rgba(255,255,255,.1); }
-        .meta-item { font-size:.9rem;color:var(--grey-light); }
-        .meta-item strong { color:var(--white);display:block;margin-bottom:4px; }
-        .animate-grid { animation:fadeIn .8s ease forwards; }
-        @keyframes fadeIn { from{opacity:0;transform:translateY(30px)} to{opacity:1;transform:translateY(0)} }
-        @media (max-width:768px) {
-          .featured-slide { height:auto;padding:40px 24px;min-height:400px; }
-          .gallery-card { aspect-ratio:3/4; }
-          .lightbox__nav--prev { left:4px; } .lightbox__nav--next { right:4px; }
-          .lightbox__close { top:12px;right:12px;width:40px;height:40px; }
-          .video-modal { padding:10px; } .video-modal__content { aspect-ratio:9/16; }
+        .lightbox{position:fixed;inset:0;background:rgba(5,8,18,0.97);backdrop-filter:blur(20px);z-index:10000;display:flex;align-items:center;justify-content:center;padding:20px;animation:fadeIn .3s ease}
+        .lightbox__content{position:relative;width:100%;max-width:1000px;display:flex;flex-direction:column;align-items:center;gap:16px;max-height:95vh;overflow-y:auto}
+        .lightbox__close{position:fixed;top:24px;right:24px;width:48px;height:48px;background:var(--blue);border:none;border-radius:50%;color:white;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:10001;transition:all .3s}
+        .lightbox__close:hover{transform:scale(1.1) rotate(90deg)}
+        .lightbox__header{width:100%;text-align:center}
+        .lightbox__location{font-size:.75rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--orange);display:block;margin-bottom:6px}
+        .lightbox__title{font-size:1.6rem;font-weight:800;color:#fff;margin:0}
+        .lightbox__count{font-size:.8rem;color:rgba(255,255,255,.5);margin-top:6px;display:inline-block}
+        .lightbox__img-wrap{position:relative;width:100%;border-radius:20px;overflow:hidden;max-height:65vh;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.04)}
+        .lightbox__img{width:100%;max-height:65vh;object-fit:contain;display:block;animation:imgFade .3s ease}
+        @keyframes imgFade{from{opacity:0;transform:scale(.97)}to{opacity:1;transform:scale(1)}}
+        .lightbox__nav{position:absolute;top:50%;transform:translateY(-50%);width:52px;height:52px;border-radius:50%;background:rgba(11,14,26,.8);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.15);color:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .2s;z-index:2}
+        .lightbox__nav:hover{background:var(--blue)}
+        .lightbox__nav--prev{left:12px}
+        .lightbox__nav--next{right:12px}
+        .lightbox__thumbs{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+        .lightbox__thumb{width:72px;height:56px;border-radius:10px;overflow:hidden;border:2px solid rgba(255,255,255,.1);cursor:pointer;transition:all .2s;padding:0;background:rgba(255,255,255,.05)}
+        .lightbox__thumb img{width:100%;height:100%;object-fit:cover;display:block}
+        .lightbox__thumb--active{border-color:var(--blue)}
+        .lightbox__caption{font-size:.95rem;color:rgba(255,255,255,.6);text-align:center;max-width:680px;line-height:1.6;margin:0}
+        .multi-indicator{position:absolute;top:14px;right:14px;background:rgba(26,86,219,.85);backdrop-filter:blur(8px);color:#fff;border-radius:999px;padding:5px 10px;font-size:.72rem;font-weight:700;display:flex;align-items:center;gap:5px;z-index:5;border:1px solid rgba(255,255,255,.25)}
+        .video-modal{position:fixed;inset:0;background:rgba(8,13,26,.95);backdrop-filter:blur(16px);z-index:10000;display:flex;align-items:center;justify-content:center;padding:40px}
+        .video-modal__content{position:relative;width:100%;max-width:1200px;aspect-ratio:16/9;background:#000;border-radius:24px;overflow:hidden;box-shadow:0 40px 100px rgba(0,0,0,.8)}
+        .video-modal__player{width:100%;height:100%;border:none}
+        .video-modal__close{position:absolute;top:24px;right:24px;width:48px;height:48px;background:var(--blue);border:none;border-radius:50%;color:white;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:10001;transition:all .3s}
+        .video-modal__close:hover{transform:scale(1.1) rotate(90deg)}
+        .filter-bar{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:60px;justify-content:center}
+        .filter-btn{padding:10px 24px;border-radius:999px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.03);color:var(--grey-light);font-weight:600;font-size:.9rem;cursor:pointer;transition:all .3s}
+        .filter-btn:hover{background:rgba(255,255,255,.08);color:var(--white)}
+        .filter-btn--active{background:var(--blue)!important;color:var(--white)!important;border-color:var(--blue)!important;box-shadow:0 4px 20px rgba(26,86,219,.4)}
+        .gallery-card{position:relative;border-radius:24px;overflow:hidden;background:var(--navy-card);border:1px solid rgba(255,255,255,.08);aspect-ratio:4/5;cursor:pointer;transition:var(--transition)}
+        .gallery-card__inner{position:relative;width:100%;height:100%}
+        .gallery-card__image-wrap{width:100%;height:100%;overflow:hidden;position:relative}
+        .gallery-card__image{width:100%;height:100%;object-fit:cover;transition:transform .6s cubic-bezier(.4,0,.2,1)}
+        .gallery-card:hover .gallery-card__image{transform:scale(1.1)}
+        .video-indicator{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(8,13,26,.2);z-index:2}
+        .video-indicator__circle{width:64px;height:64px;background:var(--blue);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 30px rgba(26,86,219,.6)}
+        .gallery-card__overlay{position:absolute;inset:0;padding:30px;display:flex;flex-direction:column;justify-content:flex-end;background:linear-gradient(to top,rgba(8,13,26,.95) 0%,rgba(8,13,26,.4) 40%,transparent 100%);z-index:3}
+        .gallery-card__badge{position:absolute;top:20px;left:20px;padding:6px 14px;background:rgba(255,255,255,.1);backdrop-filter:blur(12px);border-radius:999px;font-size:.75rem;font-weight:700;color:var(--white);border:1px solid rgba(255,255,255,.2);text-transform:uppercase;letter-spacing:.05em}
+        .gallery-card__location{font-size:.8rem;color:var(--orange-light);font-weight:700;text-transform:uppercase;letter-spacing:.1em;margin-bottom:8px;display:block}
+        .gallery-card__title{font-size:1.4rem;font-weight:800;color:var(--white);margin-bottom:8px;line-height:1.2}
+        .gallery-card__caption{font-size:.95rem;color:rgba(255,255,255,.7);line-height:1.5;max-height:0;overflow:hidden;transition:all .4s ease;opacity:0}
+        .gallery-card:hover .gallery-card__caption{max-height:100px;opacity:1;margin-top:10px}
+        .gallery-card__view-btn{position:absolute;top:20px;right:20px;width:44px;height:44px;background:var(--blue);border-radius:50%;display:flex;align-items:center;justify-content:center;color:white;transform:scale(0);transition:all .4s cubic-bezier(.175,.885,.32,1.275);z-index:4}
+        .gallery-card:hover .gallery-card__view-btn{transform:scale(1)}
+        .gallery-card:hover{transform:translateY(-8px);border-color:var(--blue);box-shadow:0 20px 40px rgba(0,0,0,.4)}
+        .featured-slide{height:600px;background-size:cover;background-position:center;display:flex;align-items:center;padding:80px;border-radius:32px;margin:0 10px}
+        .featured-slide__content{max-width:600px}
+        .featured-slide__meta{display:flex;gap:30px;margin-top:30px;padding-top:30px;border-top:1px solid rgba(255,255,255,.1)}
+        .meta-item{font-size:.9rem;color:var(--grey-light)}
+        .meta-item strong{color:var(--white);display:block;margin-bottom:4px}
+        .animate-grid{animation:fadeIn .8s ease forwards}
+        @keyframes fadeIn{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+        @media(max-width:768px){
+          .featured-slide{height:auto;padding:40px 24px;min-height:400px}
+          .gallery-card{aspect-ratio:3/4}
+          .lightbox__nav--prev{left:4px}.lightbox__nav--next{right:4px}
+          .lightbox__close{top:12px;right:12px;width:40px;height:40px}
+          .video-modal{padding:10px}.video-modal__content{aspect-ratio:9/16}
         }
       `}</style>
     </div>
