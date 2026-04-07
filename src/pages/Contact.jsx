@@ -69,7 +69,7 @@ export default function Contact() {
               <div style={{ display: 'flex', gap: '12px' }}>
                 {[
                   { name: 'Instagram', icon: '📸', url: 'https://www.instagram.com/kp_solutions1' },
-                  { name: 'LinkedIn', icon: '💼', url: 'https://www.linkedin.com/yaasinekeiller?_l=en_US' },
+                  { name: 'LinkedIn', icon: '💼', url: 'https://www.linkedin.com/in/yaasine-keiller-b19b8226/' },
                   { name: 'TikTok', icon: '🎵', url: 'https://www.tiktok.com/@yaasine.keiller' }
                 ].map((s, i) => (
                   <a key={i} href={s.url} target="_blank" rel="noreferrer" style={{

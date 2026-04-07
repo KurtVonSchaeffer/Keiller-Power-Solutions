@@ -19,9 +19,8 @@ export default function Splash() {
     <div className="splash-overlay">
       <div className="splash__content">
         <div className="splash__logo">
-          <KPLogo variant="white" width={360} height={360} className="splash-logo-anim" />
+          <KPLogo width={400} height={400} className="splash-logo-anim" />
         </div>
-        <h1 className="splash__title">KP SOLUTIONS</h1>
         <div className="loader-bar">
           <div className="loader-progress"></div>
         </div>

@@ -15,9 +15,7 @@ const projects = [
       '/images/gallery/umhlanga/umhlanga-2.jpg',
       '/images/gallery/umhlanga/umhlanga-3.jpg',
       '/images/gallery/umhlanga/umhlanga-4.jpg',
-      '/images/gallery/umhlanga/umhlanga-5.jpg',
-      '/images/gallery/umhlanga/umhlanga-6.jpg',
-      '/images/gallery/umhlanga/umhlanga-7.jpg'
+      '/images/gallery/umhlanga/umhlanga-5.jpg'
     ],
     location: 'Umhlanga, KZN',
   },
